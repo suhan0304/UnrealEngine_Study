@@ -857,7 +857,10 @@
 				"D:/Unreal Project/Projects/UnrealEngine_Study/VR_Live/Content/Maps/DevMap_BuiltData.uasset",
 				"D:/Unreal Project/Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_GameMode.uasset",
 				"D:/Unreal Project/Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset",
-				"D:/Unreal Project/Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn_Legacy.uasset"
+				"D:/Unreal Project/Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn_Legacy.uasset",
+				"D:/Unreal Project/Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/Input/Actions/IA_VR_Move.uasset",
+				"D:/Unreal Project/Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/Input/Actions/IA_VR_Turn.uasset",
+				"D:/Unreal Project/Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/Input/IMC_VR_Default.uasset"
 			]
 		}
 	]
