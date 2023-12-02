@@ -37796,3 +37796,645 @@ Script Stack (0 frames) :
 [2023.12.02-08.27.04:651][209]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
 [2023.12.02-08.27.04:652][209]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
 [2023.12.02-08.27.04:653][209]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.31.31:721][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.12.02-08.31.31:722][898]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/DevMap' took 0.015
+[2023.12.02-08.31.31:722][898]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_GameMode] ([2] browsable assets)...
+[2023.12.02-08.31.31:722][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_GameMode]
+[2023.12.02-08.31.31:722][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Saved/Autosaves/Game/Blueprints/BP_GameMode_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2023.12.02-08.31.31:724][898]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_GameMode_Auto5
+[2023.12.02-08.31.31:725][898]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_GameMode_Auto5696612F14FA636947B52D99FD8542E17.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/Autosaves/Game/Blueprints/BP_GameMode_Auto5.uasset'
+[2023.12.02-08.31.31:726][898]LogFileHelpers: Auto-saving content packages took 0.004
+[2023.12.02-08.33.37:812][ 41]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.12.02-08.33.37:812][ 41]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.12.02-08.34.52:894][ 14]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.12.02-08.35.17:401][841]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.12.02-08.35.17:412][841]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.12.02-08.35.17:418][841]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.12.02-08.35.17:428][842]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.12.02-08.35.20:348][ 36]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_HGand
+[2023.12.02-08.35.20:358][ 36]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.12.02-08.35.22:116][243]LogContentBrowser: Attempting asset rename: BP_HGand -> BP_HGand
+[2023.12.02-08.35.24:147][486]LogContentBrowser: Attempting asset rename: BP_HGand -> BP_Hand
+[2023.12.02-08.35.25:851][486]LogMetaData: Removing '/Game/Blueprints/BP_Hand.BP_Hand:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_HGand.PackageMetaData'
+[2023.12.02-08.35.25:851][486]LogMetaData: Removing '/Game/Blueprints/BP_Hand.SKEL_BP_Hand_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_HGand.PackageMetaData'
+[2023.12.02-08.35.25:851][486]LogMetaData: Removing '/Game/Blueprints/BP_Hand.SKEL_BP_Hand_C' ref from Metadata '/Game/Blueprints/BP_HGand.PackageMetaData'
+[2023.12.02-08.35.25:851][486]LogMetaData: Removing '/Game/Blueprints/BP_Hand.BP_Hand_C' ref from Metadata '/Game/Blueprints/BP_HGand.PackageMetaData'
+[2023.12.02-08.35.25:851][486]LogMetaData: Removing '/Game/Blueprints/BP_Hand.BP_Hand:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_HGand.PackageMetaData'
+[2023.12.02-08.35.25:851][486]LogMetaData: Removing '/Game/Blueprints/BP_Hand.BP_Hand:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_HGand.PackageMetaData'
+[2023.12.02-08.35.25:851][486]LogMetaData: Removing '/Game/Blueprints/BP_Hand.BP_Hand:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_HGand.PackageMetaData'
+[2023.12.02-08.35.26:141][486]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.35.26:343][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hand" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset" SILENT=true
+[2023.12.02-08.35.26:351][486]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Hand
+[2023.12.02-08.35.26:351][486]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_Hand55BA6CB44684DEE93C5DCB95E9001DE8.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset'
+[2023.12.02-08.35.26:359][486]LogFileHelpers: InternalPromptForCheckoutAndSave took 218 ms (total: 24.7 sec)
+[2023.12.02-08.35.26:405][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.12.02-08.35.26:419][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.12.02-08.35.26:429][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.12.02-08.35.26:432][486]AssetCheck: New page: Asset Save: BP_Hand
+[2023.12.02-08.35.26:432][486]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Hand.BP_Hand
+[2023.12.02-08.35.26:439][486]LogAutomationController: Ignoring very large delta of 2.30 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.02-08.35.29:389][701]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Hand.BP_Hand
+[2023.12.02-08.35.29:824][701]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-08.35.29:860][701]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-08.35.32:070][701]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.12.02-08.35.38:116][701]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 8.146191s (6.146191s overbudget)
+[2023.12.02-08.35.38:465][701]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2023.12.02-08.35.38:550][701]LogAutomationController: Ignoring very large delta of 9.67 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.02-08.36.35:671][151]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.36.35:712][151]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-08.36.35:749][151]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.36.35:869][151]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.36.42:965][583]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.36.42:966][583]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.36.42:987][583]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.36.47:382][683]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.36.47:382][683]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.36.47:442][683]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.37.14:891][ 61]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.37.14:891][ 61]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.37.14:916][ 61]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.37.18:885][501]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.37.18:886][501]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.37.18:906][501]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.37.21:964][633]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.37.21:993][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hand" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset" SILENT=true
+[2023.12.02-08.37.21:998][633]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Hand
+[2023.12.02-08.37.21:998][633]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_HandC3C3347F46B61D0F5C3E5C8E926FE208.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset'
+[2023.12.02-08.37.22:005][633]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 24.8 sec)
+[2023.12.02-08.37.22:005][633]AssetCheck: New page: Asset Save: BP_Hand
+[2023.12.02-08.37.22:005][633]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Hand.BP_Hand
+[2023.12.02-08.37.43:570][174]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.37.43:571][174]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.38.02:991][113]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: ================================================
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Total job queries 594, among them cache hits 6 (1.01%)
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Tracking 520 distinct input hashes that result in 290 distinct outputs (55.77%)
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: RAM used: 18.74 MiB of 819.20 MiB budget. Usage: 2.29%
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Shaders Compiled: 496
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Jobs assigned 497, completed 496 (99.80%)
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Average time worker was idle: 25.66 s
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Time job spent in pending queue: average 20.98 s, longest 52.48 s
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Job execution time: average 0.86 s, max 3.40 s
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Job life time (pending + execution): average 21.89 s, max 54.00
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Shader code size: average 66.021 KiB, min 1.877 KiB, max 98.762 KiB
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 116.24 s
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Jobs were issued in 485 batches (only local compilation was used), average 1.02 jobs/batch
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Average processing rate: 4.27 jobs/sec
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Total thread time: 382.199 s
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Total thread preprocess time: 17.318 s
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Percentage time preprocessing: 4.53%
+[2023.12.02-08.38.07:070][511]LogShaderCompilers: Display: Effective parallelization: 3.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    6 times, average 1.75 sec, max 2.18 sec, min 1.37 sec)
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled   47 times, average 1.75 sec, max 2.17 sec, min 1.40 sec)
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   47 times, average 1.72 sec, max 2.07 sec, min 1.39 sec)
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    4 times, average 1.64 sec, max 2.14 sec, min 1.36 sec)
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    8 times, average 1.61 sec, max 2.09 sec, min 1.47 sec)
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight - 21.49% of total time (compiled   47 times, average 1.75 sec, max 2.17 sec, min 1.40 sec)
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 21.13% of total time (compiled   47 times, average 1.72 sec, max 2.07 sec, min 1.39 sec)
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.66% of total time (compiled   45 times, average 0.74 sec, max 1.98 sec, min 0.20 sec)
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.17% of total time (compiled   17 times, average 1.39 sec, max 1.97 sec, min 0.20 sec)
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ - 4.32% of total time (compiled   46 times, average 0.36 sec, max 0.46 sec, min 0.28 sec)
+[2023.12.02-08.38.07:085][511]LogShaderCompilers: Display: ================================================
+[2023.12.02-08.38.43:022][216]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'USkeletalMeshComponent::SetSkeletalMeshAsset' [지정된 모듈을 찾을 수 없습니다.]
+[2023.12.02-08.41.32:569][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.12.02-08.41.32:572][646]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/DevMap' took 0.030
+[2023.12.02-08.41.32:572][646]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_GameMode] ([2] browsable assets)...
+[2023.12.02-08.41.32:572][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_GameMode]
+[2023.12.02-08.41.32:572][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Saved/Autosaves/Game/Blueprints/BP_GameMode_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2023.12.02-08.41.32:575][646]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_GameMode_Auto6
+[2023.12.02-08.41.32:575][646]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_GameMode_Auto6F9748587443866641F6FAB8E6774D6B7.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/Autosaves/Game/Blueprints/BP_GameMode_Auto6.uasset'
+[2023.12.02-08.41.32:575][646]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Hand] ([2] browsable assets)...
+[2023.12.02-08.41.32:619][646]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Hand.BP_Hand]
+[2023.12.02-08.41.32:619][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Hand]
+[2023.12.02-08.41.32:619][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hand" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Saved/Autosaves/Game/Blueprints/BP_Hand_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2023.12.02-08.41.32:626][646]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Hand_Auto6
+[2023.12.02-08.41.32:626][646]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_Hand_Auto6E30202AA41F40694300695B0B2F3930E.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/Autosaves/Game/Blueprints/BP_Hand_Auto6.uasset'
+[2023.12.02-08.41.32:627][646]LogFileHelpers: Auto-saving content packages took 0.055
+[2023.12.02-08.42.41:547][605]LogContentBrowser: Attempting asset rename: BP_Pawn -> BP_Pawn_Legacy
+[2023.12.02-08.42.41:638][605]LogMetaData: Removing '/Game/Blueprints/BP_Pawn_Legacy.BP_Pawn_Legacy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_Pawn.PackageMetaData'
+[2023.12.02-08.42.41:638][605]LogMetaData: Removing '/Game/Blueprints/BP_Pawn_Legacy.BP_Pawn_Legacy_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BP_Pawn.PackageMetaData'
+[2023.12.02-08.42.41:638][605]LogMetaData: Removing '/Game/Blueprints/BP_Pawn_Legacy.SKEL_BP_Pawn_Legacy_C' ref from Metadata '/Game/Blueprints/BP_Pawn.PackageMetaData'
+[2023.12.02-08.42.41:638][605]LogMetaData: Removing '/Game/Blueprints/BP_Pawn_Legacy.BP_Pawn_Legacy_C' ref from Metadata '/Game/Blueprints/BP_Pawn.PackageMetaData'
+[2023.12.02-08.42.41:638][605]LogMetaData: Removing '/Game/Blueprints/BP_Pawn_Legacy.BP_Pawn_Legacy:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_Pawn.PackageMetaData'
+[2023.12.02-08.42.41:638][605]LogMetaData: Removing '/Game/Blueprints/BP_Pawn_Legacy.BP_Pawn_Legacy:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_Pawn.PackageMetaData'
+[2023.12.02-08.42.41:638][605]LogMetaData: Removing '/Game/Blueprints/BP_Pawn_Legacy.BP_Pawn_Legacy:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_Pawn.PackageMetaData'
+[2023.12.02-08.42.41:638][605]LogMetaData: Removing '/Game/Blueprints/BP_Pawn_Legacy.BP_Pawn_Legacy_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BP_Pawn.PackageMetaData'
+[2023.12.02-08.42.41:638][605]LogMetaData: Removing '/Game/Blueprints/BP_Pawn_Legacy.SKEL_BP_Pawn_Legacy_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_Pawn.PackageMetaData'
+[2023.12.02-08.42.41:638][605]LogMetaData: Removing '/Game/Blueprints/BP_Pawn_Legacy.SKEL_BP_Pawn_Legacy_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BP_Pawn.PackageMetaData'
+[2023.12.02-08.42.41:638][605]LogMetaData: Removing '/Game/Blueprints/BP_Pawn_Legacy.SKEL_BP_Pawn_Legacy_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BP_Pawn.PackageMetaData'
+[2023.12.02-08.42.41:681][605]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.42.41:705][605]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-08.42.41:711][605]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.42.41:711][605]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.42.41:716][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pawn_Legacy" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn_Legacy.uasset" SILENT=true
+[2023.12.02-08.42.41:726][605]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Pawn_Legacy
+[2023.12.02-08.42.41:726][605]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_Pawn_Legacy3CBA526D4950366DE49307880EBDE3C1.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn_Legacy.uasset'
+[2023.12.02-08.42.41:738][605]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 24.8 sec)
+[2023.12.02-08.42.42:004][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.12.02-08.42.42:015][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.12.02-08.42.42:027][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.12.02-08.42.42:031][605]AssetCheck: New page: Asset Save: BP_Pawn_Legacy
+[2023.12.02-08.42.42:031][605]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Pawn_Legacy.BP_Pawn_Legacy
+[2023.12.02-08.43.06:803][946]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.12.02-08.43.06:814][946]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.12.02-08.43.06:819][946]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.12.02-08.43.06:829][947]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.12.02-08.43.09:188][228]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Pawn
+[2023.12.02-08.43.09:194][228]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.12.02-08.43.33:718][440]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Pawn.BP_Pawn
+[2023.12.02-08.43.33:718][440]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-08.43.33:718][440]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-08.43.34:362][440]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2023.12.02-08.43.38:939][590]BlueprintLog: New page: Compile BP_Pawn
+[2023.12.02-08.43.38:962][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.12.02-08.43.39:447][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.43.39:474][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pawn" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset" SILENT=true
+[2023.12.02-08.43.39:476][642]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Pawn
+[2023.12.02-08.43.39:476][642]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_Pawn27C49C7B4E86A6AFAF25D78619E93557.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset'
+[2023.12.02-08.43.39:486][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 24.9 sec)
+[2023.12.02-08.43.39:487][642]AssetCheck: New page: Asset Save: BP_Pawn
+[2023.12.02-08.43.39:487][642]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Pawn.BP_Pawn
+[2023.12.02-08.43.41:526][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.12.02-08.43.41:539][877]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.43.41:561][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2023.12.02-08.43.41:564][877]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_GameMode
+[2023.12.02-08.43.41:564][877]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_GameModeE4BDF8EA4A1754FBB1222B891F578B05.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_GameMode.uasset'
+[2023.12.02-08.43.41:584][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hand" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset" SILENT=true
+[2023.12.02-08.43.41:591][877]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Hand
+[2023.12.02-08.43.41:591][877]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_Hand894C6C7749DCD8262A6F669E9370D650.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset'
+[2023.12.02-08.43.41:597][877]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 24.9 sec)
+[2023.12.02-08.43.41:628][877]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.02-08.43.41:628][877]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2023.12.02-08.43.41:628][877]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Hand.BP_Hand
+[2023.12.02-08.46.23:091][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.46.23:113][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pawn" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset" SILENT=true
+[2023.12.02-08.46.23:117][ 53]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Pawn
+[2023.12.02-08.46.23:117][ 53]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_Pawn7D98B35649F0A6F63718749C634BBD90.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset'
+[2023.12.02-08.46.23:125][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 25.0 sec)
+[2023.12.02-08.46.23:126][ 53]AssetCheck: New page: Asset Save: BP_Pawn
+[2023.12.02-08.46.23:126][ 53]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Pawn.BP_Pawn
+[2023.12.02-08.46.26:856][499]BlueprintLog: New page: Compile BP_Pawn
+[2023.12.02-08.46.26:878][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.12.02-08.46.31:780][ 82]LogEditorTransaction: Undo Delete current selection
+[2023.12.02-08.47.34:911][735]LogEditorTransaction: Undo Add Node
+[2023.12.02-08.48.20:595][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.48.20:621][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pawn" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset" SILENT=true
+[2023.12.02-08.48.20:626][632]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Pawn
+[2023.12.02-08.48.20:627][632]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_PawnAE91BAF544971EF1FE46E4ABDDB91167.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset'
+[2023.12.02-08.48.20:632][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 25.0 sec)
+[2023.12.02-08.48.20:633][632]AssetCheck: New page: Asset Save: BP_Pawn
+[2023.12.02-08.48.20:633][632]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Pawn.BP_Pawn
+[2023.12.02-08.51.33:851][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.12.02-08.51.33:852][350]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/DevMap' took 0.014
+[2023.12.02-08.51.33:853][350]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Pawn] ([2] browsable assets)...
+[2023.12.02-08.51.33:853][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Pawn]
+[2023.12.02-08.51.33:853][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pawn" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Saved/Autosaves/Game/Blueprints/BP_Pawn_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2023.12.02-08.51.33:859][350]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Pawn_Auto7
+[2023.12.02-08.51.33:859][350]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_Pawn_Auto7433A6DC64C409470EEA3A2B801AE7E67.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/Autosaves/Game/Blueprints/BP_Pawn_Auto7.uasset'
+[2023.12.02-08.51.33:860][350]LogFileHelpers: Auto-saving content packages took 0.008
+[2023.12.02-08.52.31:229][595]LogBlueprint: Warning: [AssetLog] D:\Unreal Project\Projects\UnrealEngine_Study\VR_Live\Content\Blueprints\BP_Hand.uasset: [Compiler] Variable bLeftHand is marked as 'Expose on Spawn' but not marked as 'Instance Editable'; please make it 'Instance Editable'
+[2023.12.02-08.52.31:235][595]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.52.31:235][595]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.52.35:101][741]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.52.35:102][741]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.52.53:758][856]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.152 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 8395 files in 9711 folders with total size 289 MiB.
+[2023.12.02-08.53.05:844][456]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.53.05:908][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hand" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset" SILENT=true
+[2023.12.02-08.53.05:930][456]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Hand
+[2023.12.02-08.53.05:930][456]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_Hand7752B26046B13D9297F8CC9F4E20CE34.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset'
+[2023.12.02-08.53.05:938][456]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 25.1 sec)
+[2023.12.02-08.53.05:939][456]AssetCheck: New page: Asset Save: BP_Hand
+[2023.12.02-08.53.05:939][456]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Hand.BP_Hand
+[2023.12.02-08.53.08:597][775]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.53.08:632][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hand" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset" SILENT=true
+[2023.12.02-08.53.08:639][775]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Hand
+[2023.12.02-08.53.08:639][775]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_Hand716433764142F2E2DCEE1ABA43D2B8BD.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset'
+[2023.12.02-08.53.08:646][775]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 25.1 sec)
+[2023.12.02-08.53.08:646][775]AssetCheck: New page: Asset Save: BP_Hand
+[2023.12.02-08.53.08:646][775]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Hand.BP_Hand
+[2023.12.02-08.53.16:876][565]BlueprintLog: New page: Compile BP_Hand
+[2023.12.02-08.53.16:879][565]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.16:880][565]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.16:898][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.12.02-08.53.16:900][565]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.16:900][565]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.16:901][565]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.16:909][565]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.16:910][565]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.17:180][592]BlueprintLog: New page: Compile BP_Hand
+[2023.12.02-08.53.17:182][592]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.17:183][592]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.17:201][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.12.02-08.53.17:202][592]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.17:202][592]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.17:203][592]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.17:213][592]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.17:213][592]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-08.53.17:753][646]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.53.17:813][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Hand" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset" SILENT=true
+[2023.12.02-08.53.17:821][646]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Hand
+[2023.12.02-08.53.17:821][646]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_HandD71CD9F24C37C1854C01258B8E565422.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Hand.uasset'
+[2023.12.02-08.53.17:829][646]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 25.2 sec)
+[2023.12.02-08.53.17:830][646]AssetCheck: New page: Asset Save: BP_Hand
+[2023.12.02-08.53.17:831][646]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Hand.BP_Hand
+[2023.12.02-08.53.20:857][  8]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.53.20:887][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pawn" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset" SILENT=true
+[2023.12.02-08.53.20:893][  8]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Pawn
+[2023.12.02-08.53.20:894][  8]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_Pawn7463260E4176574EE320E2B7C9CD66C7.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset'
+[2023.12.02-08.53.20:900][  8]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 25.3 sec)
+[2023.12.02-08.53.20:901][  8]AssetCheck: New page: Asset Save: BP_Pawn
+[2023.12.02-08.53.20:901][  8]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Pawn.BP_Pawn
+[2023.12.02-08.53.25:390][ 79]BlueprintLog: New page: Compile BP_Pawn
+[2023.12.02-08.53.25:439][ 79]LogBlueprint: Warning: [AssetLog] D:\Unreal Project\Projects\UnrealEngine_Study\VR_Live\Content\Blueprints\BP_Pawn.uasset: [Compiler] Could not find a variable named "DesiredCameraHeight" in 'BP_Pawn_C'.
+Make sure 'BP_Pawn_C' has been compiled for  Get DesiredCameraHeight
+[2023.12.02-08.53.25:466][ 79]LogBlueprint: Error: [AssetLog] D:\Unreal Project\Projects\UnrealEngine_Study\VR_Live\Content\Blueprints\BP_Pawn.uasset: [Compiler] The property associated with  Desired Camera Height  could not be found in '/Game/Blueprints/BP_Pawn.BP_Pawn_C'
+[2023.12.02-08.53.25:835][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.12.02-08.55.53:959][471]BlueprintLog: New page: Compile BP_Pawn
+[2023.12.02-08.55.53:962][471]LogBlueprint: Warning: [AssetLog] D:\Unreal Project\Projects\UnrealEngine_Study\VR_Live\Content\Blueprints\BP_Pawn.uasset: [Compiler] Could not find a variable named "DesiredCameraHeight" in 'BP_Pawn_C'.
+Make sure 'BP_Pawn_C' has been compiled for  Get DesiredCameraHeight
+[2023.12.02-08.55.53:963][471]LogBlueprint: Error: [AssetLog] D:\Unreal Project\Projects\UnrealEngine_Study\VR_Live\Content\Blueprints\BP_Pawn.uasset: [Compiler] The property associated with  Desired Camera Height  could not be found in '/Game/Blueprints/BP_Pawn.BP_Pawn_C'
+[2023.12.02-08.55.53:980][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.12.02-08.56.14:954][210]LogSlate: Window 'Change Variable Type' being destroyed
+[2023.12.02-08.56.15:208][210]LogAutomationController: Ignoring very large delta of 3.89 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.02-08.56.20:795][532]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.12.02-08.56.20:800][532]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.12.02-08.56.39:277][382]BlueprintLog: New page: Compile BP_Pawn
+[2023.12.02-08.56.39:301][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.12.02-08.56.44:429][979]BlueprintLog: New page: Compile BP_Pawn
+[2023.12.02-08.56.44:452][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.12.02-08.57.24:904][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-08.57.24:924][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pawn" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset" SILENT=true
+[2023.12.02-08.57.24:934][266]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Pawn
+[2023.12.02-08.57.24:934][266]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_PawnCD76F18542CFACD238A14F955668444E.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset'
+[2023.12.02-08.57.24:939][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 25.3 sec)
+[2023.12.02-08.57.24:944][266]AssetCheck: New page: Asset Save: BP_Pawn
+[2023.12.02-08.57.24:944][266]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Pawn.BP_Pawn
+[2023.12.02-09.00.12:157][235]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-09.00.12:173][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Pawn" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset" SILENT=true
+[2023.12.02-09.00.12:182][235]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Pawn
+[2023.12.02-09.00.12:183][235]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/BP_Pawn733A887E44D7464F4B992F8207364EBC.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Blueprints/BP_Pawn.uasset'
+[2023.12.02-09.00.12:189][235]LogFileHelpers: InternalPromptForCheckoutAndSave took 32 ms (total: 25.3 sec)
+[2023.12.02-09.00.12:192][235]AssetCheck: New page: Asset Save: BP_Pawn
+[2023.12.02-09.00.12:192][235]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Pawn.BP_Pawn
+[2023.12.02-09.00.20:887][841]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.02-09.00.20:925][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../Projects/UnrealEngine_Study/VR_Live/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.02-09.00.20:954][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.12.02-09.00.20:985][841]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.12.02-09.00.20:985][841]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live/Saved/DevMap29578F0A4E7A5FABE009CCAAD55B8354.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live/Content/Maps/DevMap.umap'
+[2023.12.02-09.00.20:990][841]LogFileHelpers: All files are already saved.
+[2023.12.02-09.00.20:990][841]LogFileHelpers: Saving map 'DevMap' took 0.065
+[2023.12.02-09.00.20:996][841]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 25.4 sec)
+[2023.12.02-09.00.21:033][841]AssetCheck: New page: Asset Save: DevMap
+[2023.12.02-09.00.21:033][841]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.12.02-09.00.45:617][982]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.02-09.00.45:622][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.02-09.00.45:622][982]PIE: New page: PIE session: DevMap (2023. 12. 3. 오전 3:00:45)
+[2023.12.02-09.00.45:622][982]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.00.45:627][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005530s)
+[2023.12.02-09.00.45:627][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.005557s)
+[2023.12.02-09.00.45:638][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.12.02-09.00.45:639][982]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-09.00.45:639][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-09.00.45:639][982]LogAIModule: Creating AISystem for world DevMap
+[2023.12.02-09.00.45:639][982]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2023.12.02-09.00.45:639][982]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.12.02-09.00.45:639][982]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.02-09.00.45:639][982]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.02-09.00.45:639][982]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.02-09.00.45:639][982]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.02-09.00.45:639][982]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.02-09.00.45:639][982]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.02-09.00.45:639][982]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.02-09.00.45:639][982]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.02-09.00.45:640][982]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.02-09.00.45:640][982]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.02-09.00.45:640][982]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.02-09.00.45:642][982]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.02-09.00.45:735][982]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.02-09.00.45:735][982]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.02-09.00.45:735][982]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.02-09.00.45:735][982]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.02-09.00.45:736][982]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.12.02-09.00.45:736][982]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.12.02-09.00.45:738][982]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.12.02-09.00.45:738][982]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.12.02-09.00.45:738][982]LogInit: FAudioDevice initialized with ID 21.
+[2023.12.02-09.00.45:738][982]LogAudio: Display: Audio Device (ID: 21) registered with world 'DevMap'.
+[2023.12.02-09.00.45:738][982]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.02-09.00.45:750][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.00.45:940][982]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.02-09.00.45:942][982]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.02-18.00.45
+[2023.12.02-09.00.45:942][982]LogWorld: Bringing up level for play took: 0.002483
+[2023.12.02-09.00.45:945][982]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2023.12.02-09.00.46:031][982]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.00.46:060][982]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.00.46:066][982]PIE: Server logged in
+[2023.12.02-09.00.46:068][982]PIE: Play in editor total start time 0.447 seconds.
+[2023.12.02-09.00.46:072][982]LogViewport: Scene viewport resized to 4128x2240, mode Windowed.
+[2023.12.02-09.00.46:136][982]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.02-09.00.47:687][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.00.47:687][341]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.00.47:714][341]LogSlate: Window 'VR_Live Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.02-09.00.47:716][341]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-09.00.47:716][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.00.47:719][341]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.02-09.00.47:723][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.00.47:735][341]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.02-09.00.47:735][341]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.02-09.00.47:736][341]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.02-09.00.47:742][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.12.02-09.00.47:856][342]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2023.12.02-09.00.50:374][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.02-09.00.50:374][625]PIE: New page: PIE session: DevMap (2023. 12. 3. 오전 3:00:50)
+[2023.12.02-09.00.50:374][625]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.00.50:380][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005615s)
+[2023.12.02-09.00.50:380][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.005642s)
+[2023.12.02-09.00.50:392][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.12.02-09.00.50:393][625]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-09.00.50:393][625]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-09.00.50:394][625]LogAIModule: Creating AISystem for world DevMap
+[2023.12.02-09.00.50:394][625]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2023.12.02-09.00.50:394][625]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.12.02-09.00.50:394][625]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.02-09.00.50:394][625]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.02-09.00.50:394][625]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.02-09.00.50:394][625]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.02-09.00.50:394][625]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.02-09.00.50:394][625]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.02-09.00.50:394][625]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.02-09.00.50:394][625]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.02-09.00.50:395][625]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.02-09.00.50:395][625]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.02-09.00.50:395][625]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.02-09.00.50:396][625]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.02-09.00.50:494][625]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.02-09.00.50:494][625]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.02-09.00.50:494][625]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.02-09.00.50:494][625]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.02-09.00.50:495][625]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.12.02-09.00.50:495][625]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.12.02-09.00.50:497][625]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.12.02-09.00.50:497][625]LogInit: FAudioDevice initialized with ID 22.
+[2023.12.02-09.00.50:497][625]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.12.02-09.00.50:497][625]LogAudio: Display: Audio Device (ID: 22) registered with world 'DevMap'.
+[2023.12.02-09.00.50:497][625]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.02-09.00.50:556][625]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.02-09.00.50:558][625]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.02-18.00.50
+[2023.12.02-09.00.50:558][625]LogWorld: Bringing up level for play took: 0.002195
+[2023.12.02-09.00.50:560][625]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2023.12.02-09.00.50:561][625]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.00.50:561][625]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.00.50:561][625]PIE: Server logged in
+[2023.12.02-09.00.50:562][625]PIE: Play in editor total start time 0.188 seconds.
+[2023.12.02-09.00.52:147][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.00.52:147][799]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.00.52:147][799]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-09.00.52:147][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.00.52:164][799]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.02-09.00.52:169][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.00.52:180][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.00.52:180][799]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.02-09.00.52:180][799]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.02-09.00.52:182][799]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.02-09.00.52:188][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.12.02-09.00.52:252][800]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2023.12.02-09.00.55:673][193]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.02-09.00.55:676][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.02-09.00.55:676][193]PIE: New page: PIE session: DevMap (2023. 12. 3. 오전 3:00:55)
+[2023.12.02-09.00.55:676][193]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.00.55:682][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005245s)
+[2023.12.02-09.00.55:682][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.005275s)
+[2023.12.02-09.00.55:692][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.12.02-09.00.55:693][193]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-09.00.55:693][193]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-09.00.55:694][193]LogAIModule: Creating AISystem for world DevMap
+[2023.12.02-09.00.55:694][193]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2023.12.02-09.00.55:694][193]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.12.02-09.00.55:694][193]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.02-09.00.55:694][193]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.02-09.00.55:694][193]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.02-09.00.55:694][193]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.02-09.00.55:694][193]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.02-09.00.55:694][193]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.02-09.00.55:694][193]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.02-09.00.55:694][193]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.02-09.00.55:694][193]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.02-09.00.55:694][193]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.02-09.00.55:694][193]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.02-09.00.55:696][193]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.02-09.00.55:790][193]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.02-09.00.55:790][193]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.02-09.00.55:790][193]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.02-09.00.55:790][193]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.02-09.00.55:790][193]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.12.02-09.00.55:791][193]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.12.02-09.00.55:793][193]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.12.02-09.00.55:793][193]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.12.02-09.00.55:793][193]LogInit: FAudioDevice initialized with ID 23.
+[2023.12.02-09.00.55:793][193]LogAudio: Display: Audio Device (ID: 23) registered with world 'DevMap'.
+[2023.12.02-09.00.55:793][193]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2023.12.02-09.00.55:795][193]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.02-09.00.55:797][193]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.02-18.00.55
+[2023.12.02-09.00.55:797][193]LogWorld: Bringing up level for play took: 0.001952
+[2023.12.02-09.00.55:799][193]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2023.12.02-09.00.55:801][193]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.00.55:801][193]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.00.55:801][193]PIE: Server logged in
+[2023.12.02-09.00.55:801][193]PIE: Play in editor total start time 0.125 seconds.
+[2023.12.02-09.01.02:318][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.01.02:318][966]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.01.02:318][966]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-09.01.02:318][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.01.02:321][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.02-09.01.02:325][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.01.02:336][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.01.02:336][966]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2023.12.02-09.01.02:336][966]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.12.02-09.01.02:338][966]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.12.02-09.01.02:343][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.12.02-09.01.02:408][967]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2023.12.02-09.01.08:535][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.02-09.01.08:535][695]PIE: New page: PIE session: DevMap (2023. 12. 3. 오전 3:01:08)
+[2023.12.02-09.01.08:567][695]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.01.08:572][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005406s)
+[2023.12.02-09.01.08:572][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.005436s)
+[2023.12.02-09.01.08:584][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.12.02-09.01.08:585][695]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-09.01.08:585][695]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-09.01.08:585][695]LogAIModule: Creating AISystem for world DevMap
+[2023.12.02-09.01.08:585][695]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2023.12.02-09.01.08:585][695]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.12.02-09.01.08:585][695]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.02-09.01.08:585][695]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.02-09.01.08:585][695]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.02-09.01.08:585][695]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.02-09.01.08:585][695]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.02-09.01.08:585][695]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.02-09.01.08:585][695]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.02-09.01.08:585][695]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.02-09.01.08:585][695]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.02-09.01.08:585][695]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.02-09.01.08:585][695]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.02-09.01.08:587][695]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.02-09.01.08:682][695]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.02-09.01.08:682][695]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.02-09.01.08:683][695]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.02-09.01.08:683][695]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.02-09.01.08:683][695]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.12.02-09.01.08:683][695]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.12.02-09.01.08:685][695]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.12.02-09.01.08:685][695]LogInit: FAudioDevice initialized with ID 24.
+[2023.12.02-09.01.08:685][695]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.12.02-09.01.08:685][695]LogAudio: Display: Audio Device (ID: 24) registered with world 'DevMap'.
+[2023.12.02-09.01.08:685][695]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2023.12.02-09.01.08:697][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.01.08:880][695]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.02-09.01.08:882][695]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.02-18.01.08
+[2023.12.02-09.01.08:882][695]LogWorld: Bringing up level for play took: 0.002089
+[2023.12.02-09.01.08:884][695]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2023.12.02-09.01.08:886][695]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.01.08:886][695]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.01.08:889][695]PIE: Server logged in
+[2023.12.02-09.01.08:891][695]PIE: Play in editor total start time 0.356 seconds.
+[2023.12.02-09.01.08:901][695]LogViewport: Scene viewport resized to 4128x2240, mode Windowed.
+[2023.12.02-09.01.08:921][695]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.02-09.01.11:685][383]LogHMD: Warning: No UPlayerMappableInputConfig provided in the OpenXR Input project settings, action bindings will not be visible to the OpenXR runtime. Action/Axis mappings from the Input configuration are deprecated for XR in favor of Enhanced Input.
+[2023.12.02-09.01.36:077][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.01.36:077][317]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.01.36:106][317]LogSlate: Window 'VR_Live Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.02-09.01.36:108][317]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-09.01.36:109][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.01.36:111][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.02-09.01.36:115][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.01.36:126][317]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2023.12.02-09.01.36:126][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.12.02-09.01.36:127][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.12.02-09.01.36:134][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.12.02-09.01.36:200][318]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.12.02-09.01.55:449][667]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.02-09.01.55:454][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.02-09.01.55:454][667]PIE: New page: PIE session: DevMap (2023. 12. 3. 오전 3:01:55)
+[2023.12.02-09.01.55:454][667]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.01.55:460][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005549s)
+[2023.12.02-09.01.55:460][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.005577s)
+[2023.12.02-09.01.55:471][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.12.02-09.01.55:472][667]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-09.01.55:472][667]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-09.01.55:473][667]LogAIModule: Creating AISystem for world DevMap
+[2023.12.02-09.01.55:473][667]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2023.12.02-09.01.55:473][667]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.12.02-09.01.55:473][667]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.02-09.01.55:473][667]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.02-09.01.55:473][667]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.02-09.01.55:473][667]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.02-09.01.55:473][667]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.02-09.01.55:473][667]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.02-09.01.55:473][667]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.02-09.01.55:473][667]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.02-09.01.55:473][667]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.02-09.01.55:474][667]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.02-09.01.55:474][667]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.02-09.01.55:476][667]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.02-09.01.55:569][667]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.02-09.01.55:569][667]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.02-09.01.55:569][667]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.02-09.01.55:569][667]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.02-09.01.55:570][667]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.12.02-09.01.55:570][667]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.12.02-09.01.55:571][667]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.12.02-09.01.55:571][667]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.12.02-09.01.55:571][667]LogInit: FAudioDevice initialized with ID 25.
+[2023.12.02-09.01.55:571][667]LogAudio: Display: Audio Device (ID: 25) registered with world 'DevMap'.
+[2023.12.02-09.01.55:571][667]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2023.12.02-09.01.55:583][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.01.55:764][667]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.02-09.01.55:766][667]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.02-18.01.55
+[2023.12.02-09.01.55:766][667]LogWorld: Bringing up level for play took: 0.002517
+[2023.12.02-09.01.55:768][667]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2023.12.02-09.01.55:770][667]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.01.55:770][667]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.01.55:773][667]PIE: Server logged in
+[2023.12.02-09.01.55:775][667]PIE: Play in editor total start time 0.321 seconds.
+[2023.12.02-09.01.55:780][667]LogViewport: Scene viewport resized to 4128x2240, mode Windowed.
+[2023.12.02-09.01.55:840][667]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.02-09.01.58:344][304]LogHMD: Warning: No UPlayerMappableInputConfig provided in the OpenXR Input project settings, action bindings will not be visible to the OpenXR runtime. Action/Axis mappings from the Input configuration are deprecated for XR in favor of Enhanced Input.
+[2023.12.02-09.02.20:488][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.02.20:488][ 97]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.02.20:518][ 97]LogSlate: Window 'VR_Live Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.02-09.02.20:521][ 97]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-09.02.20:521][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.02.20:522][ 97]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.02-09.02.20:528][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.02.20:540][ 97]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2023.12.02-09.02.20:540][ 97]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.12.02-09.02.20:541][ 97]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.12.02-09.02.20:548][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.12.02-09.02.20:615][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2023.12.02-09.02.34:731][795]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.02-09.02.34:737][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.02-09.02.34:737][795]PIE: New page: PIE session: DevMap (2023. 12. 3. 오전 3:02:34)
+[2023.12.02-09.02.34:737][795]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.02.34:743][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005805s)
+[2023.12.02-09.02.34:743][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.005833s)
+[2023.12.02-09.02.34:754][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.12.02-09.02.34:756][795]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-09.02.34:756][795]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-09.02.34:756][795]LogAIModule: Creating AISystem for world DevMap
+[2023.12.02-09.02.34:756][795]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2023.12.02-09.02.34:756][795]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2023.12.02-09.02.34:756][795]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.02-09.02.34:756][795]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.02-09.02.34:756][795]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.02-09.02.34:756][795]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.02-09.02.34:756][795]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.02-09.02.34:756][795]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.02-09.02.34:756][795]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.02-09.02.34:756][795]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.02-09.02.34:757][795]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.02-09.02.34:757][795]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.02-09.02.34:757][795]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.02-09.02.34:758][795]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.02-09.02.34:854][795]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.02-09.02.34:854][795]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.02-09.02.34:854][795]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.02-09.02.34:854][795]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.02-09.02.34:854][795]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2023.12.02-09.02.34:854][795]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2023.12.02-09.02.34:857][795]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2023.12.02-09.02.34:857][795]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2023.12.02-09.02.34:857][795]LogInit: FAudioDevice initialized with ID 26.
+[2023.12.02-09.02.34:857][795]LogAudio: Display: Audio Device (ID: 26) registered with world 'DevMap'.
+[2023.12.02-09.02.34:857][795]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2023.12.02-09.02.34:869][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.02.35:057][795]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.02-09.02.35:059][795]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.02-18.02.35
+[2023.12.02-09.02.35:059][795]LogWorld: Bringing up level for play took: 0.002590
+[2023.12.02-09.02.35:089][795]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2023.12.02-09.02.35:090][795]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.02.35:090][795]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.02-09.02.35:093][795]PIE: Server logged in
+[2023.12.02-09.02.35:096][795]PIE: Play in editor total start time 0.359 seconds.
+[2023.12.02-09.02.35:097][795]LogHMD: Warning: No UPlayerMappableInputConfig provided in the OpenXR Input project settings, action bindings will not be visible to the OpenXR runtime. Action/Axis mappings from the Input configuration are deprecated for XR in favor of Enhanced Input.
+[2023.12.02-09.02.35:112][795]LogViewport: Scene viewport resized to 4128x2240, mode Windowed.
+[2023.12.02-09.02.35:184][795]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.02-09.03.11:155][516]LogCore: Display: Tracing Screenshot "ScreenShot00006" taken with size: 1280 x 720
+[2023.12.02-09.03.11:322][520]LogCore: Display: Tracing Screenshot "ScreenShot00007" taken with size: 1280 x 720
+[2023.12.02-09.03.11:488][521]LogCore: Display: Tracing Screenshot "ScreenShot00008" taken with size: 1280 x 720
+[2023.12.02-09.03.11:616][522]LogCore: Display: Tracing Screenshot "ScreenShot00009" taken with size: 1280 x 720
+[2023.12.02-09.04.08:643][  5]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.12.02-09.04.09:548][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-09.04.09:548][182]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.02-09.04.09:574][182]LogSlate: Window 'VR_Live Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.02-09.04.09:576][182]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-09.04.09:577][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.04.09:579][182]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.02-09.04.09:584][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-09.04.09:595][182]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2023.12.02-09.04.09:596][182]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.12.02-09.04.09:597][182]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.12.02-09.04.09:605][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.12.02-09.04.09:726][183]LogPlayLevel: Display: Destroying online subsystem :Context_48
