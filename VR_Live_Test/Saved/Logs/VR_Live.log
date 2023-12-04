@@ -1869,3 +1869,19 @@ Context 1/2
 [2023.12.04-13.44.00:842][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
 [2023.12.04-13.44.00:885][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_25
 [2023.12.04-13.44.06:510][128]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.12.04-13.44.29:402][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.12.04-13.44.30:480][281]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.04-13.44.30:523][281]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-13.44.30:523][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-13.44.30:552][281]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/BP_Saber.BP_Saber
+	Asset Type: Blueprint
+[2023.12.04-13.44.30:770][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.12.04-13.44.30:797][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.12.04-13.44.30:806][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.12.04-13.44.30:815][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.12.04-13.44.57:054][939]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.12.04-13.44.57:064][939]LogContentBrowser: Creating deferred item: NewFolder
+[2023.12.04-13.44.57:071][940]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.12.04-13.44.59:456][990]LogContentBrowser: Attempting asset rename: NewFolder -> Sample
+[2023.12.04-13.44.59:456][990]LogContentBrowser: End creating deferred item NewFolder
