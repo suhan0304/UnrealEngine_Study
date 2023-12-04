@@ -1443,3 +1443,125 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.12.04-11.29.37:813][663]LogViewport: Scene viewport resized to 1202x337, mode Windowed.
 [2023.12.04-11.29.37:855][663]LogViewport: Scene viewport resized to 1202x338, mode Windowed.
 [2023.12.04-11.29.38:621][685]LogViewport: Scene viewport resized to 1612x818, mode Windowed.
+[2023.12.04-11.35.14:064][152]Cmd: DELETE
+[2023.12.04-11.35.14:086][152]Cmd: ACTOR DELETE
+[2023.12.04-11.35.14:750][152]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-11.35.14:899][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.12.04-11.35.14:900][152]LogEditorActor: Deleted 1 Actors (0.687 secs)
+[2023.12.04-11.35.15:074][164]Cmd: DELETE
+[2023.12.04-11.35.15:074][164]Cmd: ACTOR DELETE
+[2023.12.04-11.35.15:075][164]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-11.35.15:078][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.12.04-11.35.15:079][164]LogEditorActor: Deleted 1 Actors (0.005 secs)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: ================================================
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Total job queries 3,662, among them cache hits 47 (1.28%)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Tracking 3,603 distinct input hashes that result in 2,494 distinct outputs (69.22%)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: RAM used: 12.37 MiB of 819.20 MiB budget. Usage: 1.51%
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Shaders Compiled: 3,603
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Jobs assigned 3,607, completed 3,603 (99.89%)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Average time worker was idle: 3.17 s
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Time job spent in pending queue: average 201.65 s, longest 505.29 s
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Job execution time: average 7.45 s, max 47.42 s
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Job life time (pending + execution): average 209.33 s, max 508.42
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Shader code size: average 13.685 KiB, min 140 B, max 154.367 KiB
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 607.82 s
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Jobs were issued in 694 batches (only local compilation was used), average 5.20 jobs/batch
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Average processing rate: 5.93 jobs/sec
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Total thread time: 2,782.439 s
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Total thread preprocess time: 79.368 s
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Percentage time preprocessing: 2.85%
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Effective parallelization: 4.58 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 13.91 sec, max 13.91 sec, min 13.91 sec)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 12.84 sec, max 44.83 sec, min 1.34 sec)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.56 sec, max 17.17 sec, min 0.27 sec)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display:                                   FScreenSpaceShortRangeAOCS (compiled   12 times, average 5.41 sec, max 22.87 sec, min 0.40 sec)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display:                                        FCloudRenderViewPS100 (compiled    1 times, average 4.82 sec, max 4.82 sec, min 4.82 sec)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 12.23% of total time (compiled  128 times, average 2.66 sec, max 7.53 sec, min 0.56 sec)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 10.66% of total time (compiled  128 times, average 2.32 sec, max 3.93 sec, min 1.60 sec)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display:                                             FDeferredLightPS - 6.53% of total time (compiled   90 times, average 2.02 sec, max 4.19 sec, min 0.34 sec)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display:                          FReflectionEnvironmentSkyLightingPS - 5.60% of total time (compiled   96 times, average 1.62 sec, max 3.70 sec, min 0.35 sec)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 4.90% of total time (compiled   34 times, average 4.01 sec, max 6.93 sec, min 1.84 sec)
+[2023.12.04-11.35.31:361][547]LogShaderCompilers: Display: ================================================
+[2023.12.04-11.35.34:766][616]LogSlate: Took 0.099754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.04-11.35.41:894][666]LogMaterial: Display: Material /Game/Materials/M_Lighting.M_Lighting needed to have new flag set bUsedWithStaticLighting !
+[2023.12.04-11.35.46:018][  0]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.04-11.35.46:024][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-11.35.46:024][  0]PIE: New page: PIE session: BeatMapSun (2023. 12. 5. 오전 5:35:46)
+[2023.12.04-11.35.46:046][  0]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BeatMapSun
+[2023.12.04-11.35.46:049][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003187s)
+[2023.12.04-11.35.46:049][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BeatMapSun.BeatMapSun to /Game/UEDPIE_0_BeatMapSun.BeatMapSun (0.003220s)
+[2023.12.04-11.35.46:052][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.12.04-11.35.46:053][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-11.35.46:053][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-11.35.46:053][  0]LogAIModule: Creating AISystem for world BeatMapSun
+[2023.12.04-11.35.46:054][  0]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2023.12.04-11.35.46:054][  0]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.12.04-11.35.46:054][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-11.35.46:054][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-11.35.46:054][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-11.35.46:054][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-11.35.46:054][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-11.35.46:054][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-11.35.46:054][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-11.35.46:054][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-11.35.46:054][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-11.35.46:054][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-11.35.46:054][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-11.35.46:056][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-11.35.46:150][  0]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.04-11.35.46:150][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-11.35.46:151][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-11.35.46:151][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-11.35.46:152][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.12.04-11.35.46:152][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.12.04-11.35.46:154][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.12.04-11.35.46:154][  0]LogInit: FAudioDevice initialized with ID 4.
+[2023.12.04-11.35.46:154][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.12.04-11.35.46:154][  0]LogAudio: Display: Audio Device (ID: 4) registered with world 'BeatMapSun'.
+[2023.12.04-11.35.46:154][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.04-11.35.46:156][  0]LogLoad: Game class is 'MyGameMode_C'
+[2023.12.04-11.35.46:157][  0]LogWorld: Bringing World /Game/UEDPIE_0_BeatMapSun.BeatMapSun up for play (max tick rate 0) at 2023.12.04-20.35.46
+[2023.12.04-11.35.46:157][  0]LogWorld: Bringing up level for play took: 0.001313
+[2023.12.04-11.35.46:158][  0]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.12.04-11.35.46:162][  0]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-11.35.46:162][  0]PIE: Server logged in
+[2023.12.04-11.35.46:163][  0]PIE: Play in editor total start time 0.14 seconds.
+[2023.12.04-11.35.47:015][ 76]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-11.35.48:015][195]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-11.35.48:946][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-11.35.48:946][288]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BeatMapSun
+[2023.12.04-11.35.48:946][288]LogWorld: UWorld::CleanupWorld for BeatMapSun, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-11.35.48:946][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-11.35.48:949][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-11.35.48:950][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-11.35.48:953][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-11.35.48:953][288]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.04-11.35.48:953][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.04-11.35.48:954][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.04-11.35.48:960][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.12.04-11.35.49:067][289]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.12.04-11.35.50:750][417]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Blade.BP_Blade
+[2023.12.04-11.35.51:240][417]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-11.35.51:240][417]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-11.35.52:233][417]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2023.12.04-11.35.52:755][417]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.12.04-11.35.53:107][417]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.353209s
+[2023.12.04-11.35.58:626][417]LogStaticMesh: Display: Building static mesh PhAT_FloorBox...
+[2023.12.04-11.35.58:628][417]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2023.12.04-11.35.58:759][417]LogTexture: Display: Waiting for textures to be ready 0/2 (/Engine/EditorResources/TilePatine_N) ...
+[2023.12.04-11.35.59:858][417]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 9.108284s (7.108284s overbudget)
+[2023.12.04-11.36.07:818][827]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-11.36.07:824][827]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-11.37.01:867][694]LogSlate: Window 'BP_Blade' being destroyed
+[2023.12.04-11.37.03:202][835]LogSlate: Window 'BP_Blade' being destroyed
+[2023.12.04-11.37.07:803][265]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/BeatMapSun.BeatMapSun:PersistentLevel.BeatMapSun
+[2023.12.04-11.37.07:804][265]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-11.37.07:804][265]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-11.37.21:332][754]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Cube.BP_Cube
+[2023.12.04-11.37.21:333][754]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-11.37.21:333][754]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-11.37.21:434][754]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
