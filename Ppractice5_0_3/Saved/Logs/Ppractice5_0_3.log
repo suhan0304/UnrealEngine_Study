@@ -1591,3 +1591,5 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.12.04-11.37.53:929][848]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_Lighting_Auto1
 [2023.12.04-11.37.53:929][848]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/M_Lighting_Auto11C110F3C48DA04F91C4F078673543106.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Lighting_Auto1.uasset'
 [2023.12.04-11.37.53:929][848]LogFileHelpers: Auto-saving content packages took 0.303
+[2023.12.04-11.52.59:906][528]LogD3D12RHI: Warning: GPU timeout: A payload (0x00000B5EF004C900) on the [0x00000B5ED5228300, 3D] queue has not completed after 5.000000 seconds.
+[2023.12.04-11.52.59:992][528]LogD3D12RHI: Warning: GPU timeout: A payload (0x00000B5EF0047700) on the [0x00000B5ED5228300, 3D] queue has not completed after 5.112758 seconds.
