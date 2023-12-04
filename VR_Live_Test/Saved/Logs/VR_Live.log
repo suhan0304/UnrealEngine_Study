@@ -4539,3 +4539,4 @@ Please use /Niagara/Modules/Spawn/Initialization/V2/InitializeParticle.Initializ
 [2023.12.04-14.26.58:254][889]AssetCheck: New page: Asset Save: DevMap
 [2023.12.04-14.26.58:254][889]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
 [2023.12.04-14.27.20:529][959]LogSlate: Window 'BP_Blade' being destroyed
+[2023.12.04-14.28.43:226][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
