@@ -1875,3 +1875,73 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.12.04-12.57.58:193][513]LogFileHelpers: Auto-saving content packages took 0.510
 [2023.12.04-13.18.39:280][271]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:20.134 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10253 files in 11671 folders with total size 322 MiB.
 [2023.12.04-13.20.43:754][644]LogViewport: Scene viewport resized to 1525x979, mode Windowed.
+[2023.12.04-13.27.09:757][709]LogEditorViewport: Clicking Background
+[2023.12.04-13.27.20:962][199]Cmd: DELETE
+[2023.12.04-13.27.20:962][199]Cmd: ACTOR DELETE
+[2023.12.04-13.27.21:071][199]LogEditorActor: Deleted Actor: PointLight
+[2023.12.04-13.27.21:074][199]LogEditorActor: Deleted Actor: PointLight
+[2023.12.04-13.27.21:074][199]LogEditorActor: Deleted Actor: PointLight
+[2023.12.04-13.27.21:132][199]LogUObjectHash: Compacting FUObjectHashTables data took  10.43ms
+[2023.12.04-13.27.21:134][199]LogEditorActor: Deleted 3 Actors (0.133 secs)
+[2023.12.04-13.27.21:247][201]Cmd: DELETE
+[2023.12.04-13.27.21:247][201]Cmd: ACTOR DELETE
+[2023.12.04-13.27.23:092][383]Cmd: DELETE
+[2023.12.04-13.27.23:092][383]Cmd: ACTOR DELETE
+[2023.12.04-13.27.23:093][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.23:132][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.23:156][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.23:157][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.23:158][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.23:281][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.23:282][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.23:283][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.23:284][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.23:284][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.23:285][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.23:301][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.12.04-13.27.23:302][383]LogEditorActor: Deleted 11 Actors (0.210 secs)
+[2023.12.04-13.27.25:386][560]Cmd: DELETE
+[2023.12.04-13.27.25:386][560]Cmd: ACTOR DELETE
+[2023.12.04-13.27.25:387][560]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.25:387][560]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.25:426][560]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.25:539][560]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.25:551][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.12.04-13.27.25:553][560]LogEditorActor: Deleted 4 Actors (0.168 secs)
+[2023.12.04-13.27.29:105][831]Cmd: DELETE
+[2023.12.04-13.27.29:106][831]Cmd: ACTOR DELETE
+[2023.12.04-13.27.29:107][831]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.29:128][831]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2023.12.04-13.27.29:130][831]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2023.12.04-13.27.30:544][962]Cmd: DELETE
+[2023.12.04-13.27.30:544][962]Cmd: ACTOR DELETE
+[2023.12.04-13.27.30:545][962]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.30:570][962]LogUObjectHash: Compacting FUObjectHashTables data took   9.51ms
+[2023.12.04-13.27.30:572][962]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2023.12.04-13.27.31:368][ 17]Cmd: DELETE
+[2023.12.04-13.27.31:368][ 17]Cmd: ACTOR DELETE
+[2023.12.04-13.27.31:369][ 17]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.31:381][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.12.04-13.27.31:382][ 17]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.12.04-13.27.31:908][ 65]Cmd: DELETE
+[2023.12.04-13.27.31:908][ 65]Cmd: ACTOR DELETE
+[2023.12.04-13.27.31:909][ 65]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.31:919][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.12.04-13.27.31:921][ 65]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.12.04-13.27.32:392][117]Cmd: DELETE
+[2023.12.04-13.27.32:392][117]Cmd: ACTOR DELETE
+[2023.12.04-13.27.32:393][117]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-13.27.32:404][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.12.04-13.27.32:405][117]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.12.04-13.27.33:328][228]Cmd: DELETE
+[2023.12.04-13.27.33:328][228]Cmd: ACTOR DELETE
+[2023.12.04-13.29.15:988][383]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.12.04-13.30.01:881][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.12.04-13.30.01:882][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeatMapSun" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.12.04-13.30.01:899][222]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BeatMapSun_Auto5
+[2023.12.04-13.30.01:899][222]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/BeatMapSun_Auto50B37037A4C95E03CF1476EADEA0C2A1C.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto5.umap'
+[2023.12.04-13.30.01:934][222]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto5.umap is in the /Temp path, will not scan.
+[2023.12.04-13.30.01:934][222]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/BeatMapSun_Auto5 is in the /Temp path, will not scan.
+[2023.12.04-13.30.01:934][222]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/BeatMapSun_Auto5 is in the /Temp path, will not scan.
+[2023.12.04-13.30.01:934][222]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BeatMapSun' took 0.123
+[2023.12.04-13.30.01:934][222]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.123
