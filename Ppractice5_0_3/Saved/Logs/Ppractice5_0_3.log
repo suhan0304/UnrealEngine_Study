@@ -1565,3 +1565,29 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.12.04-11.37.21:333][754]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2023.12.04-11.37.21:333][754]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
 [2023.12.04-11.37.21:434][754]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-11.37.53:451][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.12.04-11.37.53:475][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeatMapSun" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.12.04-11.37.53:482][848]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.006524 seconds
+[2023.12.04-11.37.53:508][848]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BeatMapSun_Auto1
+[2023.12.04-11.37.53:508][848]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/BeatMapSun_Auto14C2D4DBC4C90B100403CBFADA5949EED.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto1.umap'
+[2023.12.04-11.37.53:583][848]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto1.umap is in the /Temp path, will not scan.
+[2023.12.04-11.37.53:583][848]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BeatMapSun' took 0.150
+[2023.12.04-11.37.53:583][848]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.150
+[2023.12.04-11.37.53:627][848]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/EngineSky/M_SimpleSkyDome] ([1] browsable assets)...
+[2023.12.04-11.37.53:643][848]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/EngineSky/M_SimpleSkyDome.M_SimpleSkyDome]
+[2023.12.04-11.37.53:643][848]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineSky/M_SimpleSkyDome]
+[2023.12.04-11.37.53:736][848]LogSavePackage: Moving output files for package: /Temp/Autosaves/Engine/EngineSky/M_SimpleSkyDome_Auto1
+[2023.12.04-11.37.53:736][848]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/M_SimpleSkyDome_Auto1A27C1C3F4AB94EE3EA9AF8A1BB8CF4FC.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Engine/EngineSky/M_SimpleSkyDome_Auto1.uasset'
+[2023.12.04-11.37.53:737][848]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_Saber] ([1] browsable assets)...
+[2023.12.04-11.37.53:746][848]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/M_Saber.M_Saber]
+[2023.12.04-11.37.53:746][848]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Saber]
+[2023.12.04-11.37.53:746][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Saber" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Saber_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.12.04-11.37.53:865][848]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_Saber_Auto1
+[2023.12.04-11.37.53:865][848]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/M_Saber_Auto1534ECFFF437B3171FE594C923D0C2952.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Saber_Auto1.uasset'
+[2023.12.04-11.37.53:866][848]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_Lighting] ([1] browsable assets)...
+[2023.12.04-11.37.53:870][848]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/M_Lighting.M_Lighting]
+[2023.12.04-11.37.53:870][848]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Lighting]
+[2023.12.04-11.37.53:870][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Lighting" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Lighting_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.12.04-11.37.53:929][848]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_Lighting_Auto1
+[2023.12.04-11.37.53:929][848]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/M_Lighting_Auto11C110F3C48DA04F91C4F078673543106.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Lighting_Auto1.uasset'
+[2023.12.04-11.37.53:929][848]LogFileHelpers: Auto-saving content packages took 0.303
