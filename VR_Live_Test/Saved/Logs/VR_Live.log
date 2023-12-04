@@ -2674,3 +2674,4 @@ Script Stack (3 frames) :
 [2023.12.04-16.13.04:764][355]LogPlayLevel: Display: Destroying online subsystem :Context_23
 [2023.12.04-16.13.14:035][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
 [2023.12.04-16.49.39:655][893]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:20.133 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10509 files in 11927 folders with total size 335 MiB.
+[2023.12.04-17.49.39:696][688]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:20.173 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10509 files in 11927 folders with total size 335 MiB.
