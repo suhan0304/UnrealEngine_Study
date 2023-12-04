@@ -4972,3 +4972,544 @@ Please use /Niagara/Modules/Spawn/Initialization/V2/InitializeParticle.Initializ
 [2023.12.04-14.38.48:965][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
 [2023.12.04-14.38.48:968][589]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
 [2023.12.04-14.38.48:974][589]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.39.15:257][916]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.12.04-14.39.15:267][916]LogContentBrowser: Creating deferred item: NewFolder
+[2023.12.04-14.39.15:275][917]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.12.04-14.39.17:865][198]LogContentBrowser: Attempting asset rename: NewFolder -> SliceMesh
+[2023.12.04-14.39.17:918][198]LogContentBrowser: End creating deferred item NewFolder
+[2023.12.04-14.39.28:317][387]LogContentBrowser: Attempting asset rename: SliceMesh -> Mesh
+[2023.12.04-14.40.29:092][143]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.12.04-14.40.29:104][143]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.12.04-14.40.29:108][143]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.12.04-14.40.29:128][145]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.12.04-14.40.34:561][794]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_SliceMesh
+[2023.12.04-14.40.34:580][794]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.12.04-14.40.40:049][904]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Mesh/BP_SliceMesh.BP_SliceMesh
+[2023.12.04-14.40.40:050][904]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.40.40:050][904]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.40.40:213][904]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2023.12.04-14.40.48:476][355]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.41.07:255][659]LogEditorTransaction: Undo Make New Scene Root
+[2023.12.04-14.41.07:585][674]LogEditorTransaction: Undo Make New Scene Root
+[2023.12.04-14.41.08:246][739]LogEditorTransaction: Undo Detach Component
+[2023.12.04-14.41.10:437][954]LogEditorTransaction: Undo Make New Scene Root
+[2023.12.04-14.41.12:747][186]LogEditorTransaction: Undo Add Component
+[2023.12.04-14.41.33:986][162]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.12.04-14.41.33:992][162]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.41.33:992][162]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.41.34:554][162]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.12.04-14.41.48:059][573]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/BasicShapes/Cube) ...
+[2023.12.04-14.41.48:061][573]LogStaticMesh: Display: Building static mesh Cube...
+[2023.12.04-14.41.48:324][573]LogStaticMesh: Built static mesh [0.26s] /Engine/BasicShapes/Cube.Cube
+[2023.12.04-14.42.12:559][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.12.04-14.42.12:563][640]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.42.12:594][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Cube" FILE="../../../Engine/Content/BasicShapes/Cube.uasset" SILENT=true
+[2023.12.04-14.42.12:596][640]LogSavePackage: Moving output files for package: /Engine/BasicShapes/Cube
+[2023.12.04-14.42.12:597][640]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/Cube023D0F11483344495720819EDBD61304.tmp' to '../../../Engine/Content/BasicShapes/Cube.uasset'
+[2023.12.04-14.42.12:623][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Sample/BP_Blade" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Sample/BP_Blade.uasset" SILENT=true
+[2023.12.04-14.42.12:633][640]LogSavePackage: Moving output files for package: /Game/Blueprints/Sample/BP_Blade
+[2023.12.04-14.42.12:634][640]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_Blade772E603C444268FB345962AC70EB3372.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Sample/BP_Blade.uasset'
+[2023.12.04-14.42.12:635][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Cube" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset" SILENT=true
+[2023.12.04-14.42.12:642][640]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Cube
+[2023.12.04-14.42.12:642][640]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_Cube03E3EB884AC2D5F3B6C06D9517E8C094.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset'
+[2023.12.04-14.42.12:647][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mesh/BP_SliceMesh" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Mesh/BP_SliceMesh.uasset" SILENT=true
+[2023.12.04-14.42.12:651][640]LogSavePackage: Moving output files for package: /Game/Blueprints/Mesh/BP_SliceMesh
+[2023.12.04-14.42.12:651][640]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SliceMesh09DC62D041FA2DF281FEE683BA912798.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Mesh/BP_SliceMesh.uasset'
+[2023.12.04-14.42.12:658][640]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 6.73 sec)
+[2023.12.04-14.42.12:660][640]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.04-14.42.12:660][640]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.12.04-14.42.12:677][640]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Sample/BP_Blade.BP_Blade
+[2023.12.04-14.42.12:677][640]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Cube.BP_Cube
+[2023.12.04-14.42.12:677][640]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mesh/BP_SliceMesh.BP_SliceMesh
+[2023.12.04-14.42.51:563][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.12.04-14.42.51:566][124]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.42.51:590][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/Cube" FILE="../../../Engine/Content/BasicShapes/Cube.uasset" SILENT=true
+[2023.12.04-14.42.51:631][124]LogSavePackage: Moving output files for package: /Engine/BasicShapes/Cube
+[2023.12.04-14.42.51:632][124]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/Cube1CF4F9C94AE77F159BCF34A3D960E169.tmp' to '../../../Engine/Content/BasicShapes/Cube.uasset'
+[2023.12.04-14.42.51:638][124]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 6.81 sec)
+[2023.12.04-14.42.51:638][124]AssetCheck: New page: Asset Save: Cube
+[2023.12.04-14.42.51:638][124]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.12.04-14.42.52:516][220]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.42.52:516][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.43.16:705][389]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.12.04-14.43.16:709][389]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.43.16:742][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mesh/BP_SliceMesh" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Mesh/BP_SliceMesh.uasset" SILENT=true
+[2023.12.04-14.43.16:746][389]LogSavePackage: Moving output files for package: /Game/Blueprints/Mesh/BP_SliceMesh
+[2023.12.04-14.43.16:747][389]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SliceMesh248D23D54CA5B34C912C7288B591E2B2.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Mesh/BP_SliceMesh.uasset'
+[2023.12.04-14.43.16:753][389]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 6.85 sec)
+[2023.12.04-14.43.16:753][389]AssetCheck: New page: Asset Save: BP_SliceMesh
+[2023.12.04-14.43.16:753][389]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mesh/BP_SliceMesh.BP_SliceMesh
+[2023.12.04-14.43.17:803][493]BlueprintLog: New page: Compile BP_SliceMesh
+[2023.12.04-14.43.17:821][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.12.04-14.43.28:599][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.12.04-14.43.28:604][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.43.28:628][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mesh/BP_SliceMesh" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Mesh/BP_SliceMesh.uasset" SILENT=true
+[2023.12.04-14.43.28:631][647]LogSavePackage: Moving output files for package: /Game/Blueprints/Mesh/BP_SliceMesh
+[2023.12.04-14.43.28:631][647]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SliceMeshF6F4324F42A14D64AE6A75BD6D100C67.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Mesh/BP_SliceMesh.uasset'
+[2023.12.04-14.43.28:636][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 6.88 sec)
+[2023.12.04-14.43.28:638][647]AssetCheck: New page: Asset Save: BP_SliceMesh
+[2023.12.04-14.43.28:638][647]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mesh/BP_SliceMesh.BP_SliceMesh
+[2023.12.04-14.43.30:222][811]BlueprintLog: New page: Compile BP_SliceMesh
+[2023.12.04-14.43.30:241][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.12.04-14.44.02:022][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.12.04-14.44.02:027][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.44.02:046][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mesh/BP_SliceMesh" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Mesh/BP_SliceMesh.uasset" SILENT=true
+[2023.12.04-14.44.02:049][  0]LogSavePackage: Moving output files for package: /Game/Blueprints/Mesh/BP_SliceMesh
+[2023.12.04-14.44.02:050][  0]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SliceMeshC38FA3C045C9A4CB50D164B29754D573.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Mesh/BP_SliceMesh.uasset'
+[2023.12.04-14.44.02:056][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 29 ms (total: 6.91 sec)
+[2023.12.04-14.44.02:057][  0]AssetCheck: New page: Asset Save: BP_SliceMesh
+[2023.12.04-14.44.02:057][  0]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mesh/BP_SliceMesh.BP_SliceMesh
+[2023.12.04-14.44.29:351][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.12.04-14.44.30:113][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.04-14.44.49:097][357]LogEditorTransaction: Undo Delete current selection
+[2023.12.04-14.45.16:445][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.12.04-14.45.16:451][910]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.45.16:470][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mesh/BP_SliceMesh" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Mesh/BP_SliceMesh.uasset" SILENT=true
+[2023.12.04-14.45.16:476][910]LogSavePackage: Moving output files for package: /Game/Blueprints/Mesh/BP_SliceMesh
+[2023.12.04-14.45.16:476][910]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SliceMesh2F0F1F2C473737F2EB35509A8A214E6A.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Mesh/BP_SliceMesh.uasset'
+[2023.12.04-14.45.16:482][910]LogFileHelpers: InternalPromptForCheckoutAndSave took 31 ms (total: 6.94 sec)
+[2023.12.04-14.45.16:483][910]AssetCheck: New page: Asset Save: BP_SliceMesh
+[2023.12.04-14.45.16:483][910]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mesh/BP_SliceMesh.BP_SliceMesh
+[2023.12.04-14.46.06:293][442]LogSlate: Window 'BP_SliceMesh' being destroyed
+[2023.12.04-14.48.28:436][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.12.04-14.48.28:442][845]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.48.28:466][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.04-14.48.28:494][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.04-14.48.28:517][845]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.12.04-14.48.28:517][845]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/DevMap94951A0443AF103608EEE4A1E77B10A8.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap'
+[2023.12.04-14.48.28:522][845]LogFileHelpers: All files are already saved.
+[2023.12.04-14.48.28:522][845]LogFileHelpers: Saving map 'DevMap' took 0.057
+[2023.12.04-14.48.28:531][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Saber" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset" SILENT=true
+[2023.12.04-14.48.28:541][845]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Saber
+[2023.12.04-14.48.28:541][845]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SaberFF3FBEB54161715B9D04B193AA84D3EA.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset'
+[2023.12.04-14.48.28:551][845]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 7.05 sec)
+[2023.12.04-14.48.28:552][845]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.04-14.48.28:552][845]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.12.04-14.48.28:552][845]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Saber.BP_Saber
+[2023.12.04-14.48.29:330][938]BlueprintLog: New page: Compile BP_Saber
+[2023.12.04-14.48.29:357][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.12.04-14.48.48:401][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.12.04-14.48.48:406][845]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.48.48:426][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.04-14.48.48:455][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.04-14.48.48:477][845]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.12.04-14.48.48:478][845]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/DevMap6006A7CF412FC2FE99AAA5BBA3178F73.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap'
+[2023.12.04-14.48.48:531][845]LogFileHelpers: All files are already saved.
+[2023.12.04-14.48.48:531][845]LogFileHelpers: Saving map 'DevMap' took 0.105
+[2023.12.04-14.48.48:540][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Saber" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset" SILENT=true
+[2023.12.04-14.48.48:550][845]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Saber
+[2023.12.04-14.48.48:551][845]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SaberE3C0C175480B928FA43E918B36CC9AD4.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset'
+[2023.12.04-14.48.48:557][845]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 7.20 sec)
+[2023.12.04-14.48.48:559][845]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.04-14.48.48:559][845]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.12.04-14.48.48:559][845]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Saber.BP_Saber
+[2023.12.04-14.48.49:246][927]BlueprintLog: New page: Compile BP_Saber
+[2023.12.04-14.48.49:271][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.12.04-14.49.49:058][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.12.04-14.49.49:062][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.49.49:125][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Saber" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset" SILENT=true
+[2023.12.04-14.49.49:135][ 44]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Saber
+[2023.12.04-14.49.49:136][ 44]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_Saber5760D2554A3B212977BA7584A68EA9AB.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset'
+[2023.12.04-14.49.49:142][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 7.28 sec)
+[2023.12.04-14.49.49:143][ 44]AssetCheck: New page: Asset Save: BP_Saber
+[2023.12.04-14.49.49:143][ 44]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Saber.BP_Saber
+[2023.12.04-14.50.09:960][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.12.04-14.50.09:964][605]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.50.09:990][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.04-14.50.10:017][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.12.04-14.50.10:040][605]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.12.04-14.50.10:041][605]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/DevMapA8622EB846C3E387768D64A046CC37D9.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap'
+[2023.12.04-14.50.10:045][605]LogFileHelpers: All files are already saved.
+[2023.12.04-14.50.10:045][605]LogFileHelpers: Saving map 'DevMap' took 0.056
+[2023.12.04-14.50.10:092][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Saber" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset" SILENT=true
+[2023.12.04-14.50.10:101][605]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Saber
+[2023.12.04-14.50.10:102][605]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SaberAC5A61254F64C45C3816D5B410AB2DEB.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset'
+[2023.12.04-14.50.10:107][605]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 7.43 sec)
+[2023.12.04-14.50.10:108][605]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.04-14.50.10:108][605]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.12.04-14.50.10:108][605]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Saber.BP_Saber
+[2023.12.04-14.50.10:941][705]BlueprintLog: New page: Compile BP_Saber
+[2023.12.04-14.50.10:966][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.12.04-14.50.21:155][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.12.04-14.50.53:909][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.04-14.50.53:913][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.50.53:981][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Saber" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset" SILENT=true
+[2023.12.04-14.50.53:991][ 45]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Saber
+[2023.12.04-14.50.53:991][ 45]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SaberE53461624E5E5666797CD491AC914A9E.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset'
+[2023.12.04-14.50.53:998][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 7.51 sec)
+[2023.12.04-14.50.53:998][ 45]AssetCheck: New page: Asset Save: BP_Saber
+[2023.12.04-14.50.53:999][ 45]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Saber.BP_Saber
+[2023.12.04-14.51.10:047][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.12.04-14.51.11:324][476]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.04-14.51.11:331][476]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.04-14.51.11:331][476]LogPlayLevel: [PlayLevel] Compiling BP_Saber before play...
+[2023.12.04-14.51.11:364][476]LogPlayLevel: [PlayLevel] Compiling BP_SliceMesh before play...
+[2023.12.04-14.51.11:390][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.12.04-14.51.11:391][476]LogPlayLevel: PlayLevel: Blueprint regeneration took 60 ms (2 blueprints)
+[2023.12.04-14.51.11:391][476]PIE: New page: PIE session: DevMap (2023. 12. 5. 오전 8:51:11)
+[2023.12.04-14.51.11:391][476]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.51.11:395][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003243s)
+[2023.12.04-14.51.11:395][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.003268s)
+[2023.12.04-14.51.11:405][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.12.04-14.51.11:405][476]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.51.11:405][476]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.51.11:406][476]LogAIModule: Creating AISystem for world DevMap
+[2023.12.04-14.51.11:406][476]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2023.12.04-14.51.11:406][476]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2023.12.04-14.51.11:406][476]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-14.51.11:406][476]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-14.51.11:406][476]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-14.51.11:406][476]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-14.51.11:406][476]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-14.51.11:406][476]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-14.51.11:406][476]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-14.51.11:406][476]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-14.51.11:406][476]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-14.51.11:406][476]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-14.51.11:406][476]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-14.51.11:408][476]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-14.51.11:514][476]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.04-14.51.11:515][476]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-14.51.11:515][476]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-14.51.11:515][476]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-14.51.11:515][476]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2023.12.04-14.51.11:515][476]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2023.12.04-14.51.11:518][476]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2023.12.04-14.51.11:518][476]LogInit: FAudioDevice initialized with ID 35.
+[2023.12.04-14.51.11:518][476]LogAudio: Display: Audio Device (ID: 35) registered with world 'DevMap'.
+[2023.12.04-14.51.11:518][476]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2023.12.04-14.51.11:518][476]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2023.12.04-14.51.11:529][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.51.11:722][476]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.04-14.51.11:723][476]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.04-23.51.11
+[2023.12.04-14.51.11:723][476]LogWorld: Bringing up level for play took: 0.001144
+[2023.12.04-14.51.11:726][476]LogOnline: OSS: Created online subsystem instance for: :Context_84
+[2023.12.04-14.51.11:727][476]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.51.11:727][476]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.51.11:730][476]PIE: Server logged in
+[2023.12.04-14.51.11:733][476]PIE: Play in editor total start time 0.403 seconds.
+[2023.12.04-14.51.11:736][476]LogViewport: Scene viewport resized to 4128x2240, mode Windowed.
+[2023.12.04-14.51.11:762][476]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.04-14.51.15:082][264]LogHMD: Warning: No UPlayerMappableInputConfig provided in the OpenXR Input project settings, action bindings will not be visible to the OpenXR runtime. Action/Axis mappings from the Input configuration are deprecated for XR in favor of Enhanced Input.
+[2023.12.04-14.51.21:890][922]PIE: Warning: BP_Cube_C_9.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.22:850][992]PIE: Warning: BP_Cube_C_10.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.23:823][ 62]PIE: Warning: BP_Cube_C_11.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.24:879][135]PIE: Warning: BP_Cube_C_12.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.25:878][207]PIE: Warning: BP_Cube_C_13.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.26:602][259]PIE: Warning: BP_Cube_C_13.ProceduralMeshComponent_1 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.27:867][350]PIE: Warning: BP_Cube_C_15.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.28:895][424]PIE: Warning: BP_Cube_C_16.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.29:880][495]PIE: Warning: BP_Cube_C_17.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.30:881][567]PIE: Warning: BP_Cube_C_18.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.31:895][640]PIE: Warning: BP_Cube_C_19.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.32:783][704]PIE: Warning: BP_Cube_C_19.ProceduralMeshComponent_1 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.32:880][711]PIE: Warning: BP_Cube_C_20.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.33:895][784]PIE: Warning: BP_Cube_C_21.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.34:880][855]PIE: Warning: BP_Cube_C_22.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.35:908][929]PIE: Warning: BP_Cube_C_23.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.36:922][  2]PIE: Warning: BP_Cube_C_24.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.37:241][ 25]PIE: Warning: BP_Cube_C_24.ProceduralMeshComponent_1 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.37:241][ 25]PIE: Warning: BP_Cube_C_24.ProceduralMeshComponent_2 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.37:936][ 75]PIE: Warning: BP_Cube_C_25.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.38:936][147]PIE: Warning: BP_Cube_C_26.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.39:894][216]PIE: Warning: BP_Cube_C_27.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.40:881][287]PIE: Warning: BP_Cube_C_28.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.40:894][288]PIE: Warning: BP_Cube_C_28.ProceduralMeshComponent_1 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.41:964][364]PIE: Warning: BP_Cube_C_29.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.42:950][435]PIE: Warning: BP_Cube_C_30.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.43:950][507]PIE: Warning: BP_Cube_C_31.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.44:964][580]PIE: Warning: BP_Cube_C_32.ProceduralMeshComponent_0 has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2023.12.04-14.51.45:972][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.51.45:972][650]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.51.45:999][650]LogSlate: Window 'VR_Live Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.04-14.51.46:001][650]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.51.46:001][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.51.46:006][650]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-14.51.46:012][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.51.46:022][650]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2023.12.04-14.51.46:022][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.12.04-14.51.46:024][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.12.04-14.51.46:030][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.12.04-14.51.46:124][651]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2023.12.04-14.51.57:705][  8]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-14.51.57:710][  8]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-14.52.24:320][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.12.04-14.52.25:202][954]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.52.25:233][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Cube" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset" SILENT=true
+[2023.12.04-14.52.25:240][954]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Cube
+[2023.12.04-14.52.25:240][954]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_Cube4BC3F22E43152B299CAAADA572DD25E3.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset'
+[2023.12.04-14.52.25:245][954]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 7.55 sec)
+[2023.12.04-14.52.25:247][954]AssetCheck: New page: Asset Save: BP_Cube
+[2023.12.04-14.52.25:247][954]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Cube.BP_Cube
+[2023.12.04-14.52.41:664][787]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.12.04-14.52.41:669][787]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.52.41:669][787]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.52.42:193][787]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.12.04-14.53.08:272][824]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.53.08:272][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.53.11:546][211]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.53.11:546][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.53.14:466][506]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.53.14:466][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.53.19:569][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.12.04-14.53.23:048][ 83]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.04-14.53.23:082][ 83]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Mesh/BP_SliceMesh.BP_SliceMesh
+	Asset Type: Blueprint
+[2023.12.04-14.53.23:356][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.12.04-14.53.23:383][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.12.04-14.53.23:393][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.12.04-14.53.23:403][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.04-14.53.24:690][228]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.04-14.53.24:695][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-14.53.24:695][228]PIE: New page: PIE session: DevMap (2023. 12. 5. 오전 8:53:24)
+[2023.12.04-14.53.24:695][228]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.53.24:698][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003248s)
+[2023.12.04-14.53.24:698][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.003273s)
+[2023.12.04-14.53.24:707][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.12.04-14.53.24:708][228]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.53.24:708][228]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.53.24:709][228]LogAIModule: Creating AISystem for world DevMap
+[2023.12.04-14.53.24:709][228]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2023.12.04-14.53.24:709][228]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2023.12.04-14.53.24:709][228]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-14.53.24:709][228]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-14.53.24:709][228]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-14.53.24:709][228]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-14.53.24:709][228]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-14.53.24:709][228]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-14.53.24:709][228]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-14.53.24:709][228]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-14.53.24:709][228]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-14.53.24:709][228]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-14.53.24:709][228]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-14.53.24:711][228]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-14.53.24:803][228]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.04-14.53.24:803][228]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-14.53.24:803][228]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-14.53.24:803][228]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-14.53.24:804][228]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2023.12.04-14.53.24:804][228]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2023.12.04-14.53.24:806][228]LogInit: FAudioDevice initialized with ID 36.
+[2023.12.04-14.53.24:806][228]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2023.12.04-14.53.24:806][228]LogAudio: Display: Audio Device (ID: 36) registered with world 'DevMap'.
+[2023.12.04-14.53.24:806][228]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2023.12.04-14.53.24:806][228]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2023.12.04-14.53.24:816][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.53.25:001][228]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.04-14.53.25:002][228]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.04-23.53.25
+[2023.12.04-14.53.25:002][228]LogWorld: Bringing up level for play took: 0.001237
+[2023.12.04-14.53.25:004][228]LogOnline: OSS: Created online subsystem instance for: :Context_86
+[2023.12.04-14.53.25:005][228]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.53.25:005][228]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.53.25:010][228]PIE: Server logged in
+[2023.12.04-14.53.25:012][228]PIE: Play in editor total start time 0.317 seconds.
+[2023.12.04-14.53.25:015][228]LogViewport: Scene viewport resized to 4128x2240, mode Windowed.
+[2023.12.04-14.53.25:042][228]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.04-14.53.26:682][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.53.26:682][602]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.53.26:707][602]LogSlate: Window 'VR_Live Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.04-14.53.26:709][602]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.53.26:710][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.53.26:713][602]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-14.53.26:717][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.53.26:726][602]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2023.12.04-14.53.26:727][602]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.12.04-14.53.26:729][602]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.12.04-14.53.26:735][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.12.04-14.53.26:823][603]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2023.12.04-14.53.37:962][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.12.04-14.54.17:309][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.12.04-14.54.17:314][993]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.54.17:384][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Saber" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset" SILENT=true
+[2023.12.04-14.54.17:395][993]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Saber
+[2023.12.04-14.54.17:396][993]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SaberBD2E20E04D1F8BB946A0BA9861FE3E84.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset'
+[2023.12.04-14.54.17:402][993]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 7.64 sec)
+[2023.12.04-14.54.17:423][993]AssetCheck: New page: Asset Save: BP_Saber
+[2023.12.04-14.54.17:423][993]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Saber.BP_Saber
+[2023.12.04-14.54.18:897][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.04-14.54.22:008][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.12.04-14.54.22:011][539]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.54.22:031][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Saber" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset" SILENT=true
+[2023.12.04-14.54.22:042][539]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Saber
+[2023.12.04-14.54.22:042][539]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_Saber6C5A671A4E3698EE0DCCC2A596ED3AD1.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset'
+[2023.12.04-14.54.22:048][539]LogFileHelpers: InternalPromptForCheckoutAndSave took 36 ms (total: 7.68 sec)
+[2023.12.04-14.54.22:049][539]AssetCheck: New page: Asset Save: BP_Saber
+[2023.12.04-14.54.22:049][539]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Saber.BP_Saber
+[2023.12.04-14.54.42:214][998]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.54.42:240][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Cube" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset" SILENT=true
+[2023.12.04-14.54.42:247][998]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Cube
+[2023.12.04-14.54.42:247][998]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_Cube8D5781E345DFA20861B676A9648F92D4.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset'
+[2023.12.04-14.54.42:253][998]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 7.72 sec)
+[2023.12.04-14.54.42:255][998]AssetCheck: New page: Asset Save: BP_Cube
+[2023.12.04-14.54.42:255][998]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Cube.BP_Cube
+[2023.12.04-14.55.15:102][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.12.04-14.55.15:106][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.55.15:127][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.04-14.55.15:154][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.04-14.55.15:177][341]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.12.04-14.55.15:177][341]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/DevMap07887D83465220788BD2559AA0C21C46.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap'
+[2023.12.04-14.55.15:181][341]LogFileHelpers: All files are already saved.
+[2023.12.04-14.55.15:181][341]LogFileHelpers: Saving map 'DevMap' took 0.055
+[2023.12.04-14.55.15:181][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Saber" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset" SILENT=true
+[2023.12.04-14.55.15:192][341]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Saber
+[2023.12.04-14.55.15:193][341]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SaberFEAFF87E4461B20F1E7670B69F0749F4.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset'
+[2023.12.04-14.55.15:198][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 7.81 sec)
+[2023.12.04-14.55.15:200][341]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.04-14.55.15:200][341]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.12.04-14.55.15:200][341]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Saber.BP_Saber
+[2023.12.04-14.55.16:165][454]BlueprintLog: New page: Compile BP_Saber
+[2023.12.04-14.55.16:177][454]LogBlueprint: Warning: [AssetLog] D:\Unreal Project\Projects\UnrealEngine_Study\VR_Live_Test\Content\Blueprints\BP_Saber.uasset: [Compiler] On Component End Overlap (Cube)  does not have a valid matching component!
+[2023.12.04-14.55.16:177][454]LogBlueprint: Warning: [AssetLog] D:\Unreal Project\Projects\UnrealEngine_Study\VR_Live_Test\Content\Blueprints\BP_Saber.uasset: [Compiler] On Component Begin Overlap (Cube)  does not have a valid matching component!
+[2023.12.04-14.55.16:185][454]LogBlueprint: Warning: [AssetLog] D:\Unreal Project\Projects\UnrealEngine_Study\VR_Live_Test\Content\Blueprints\BP_Saber.uasset: [Compiler] Could not find a variable named "Cube" in 'BP_Saber_C'.
+Make sure 'BP_Saber_C' has been compiled for  Get Cube
+[2023.12.04-14.55.16:193][454]LogBlueprint: Error: [AssetLog] D:\Unreal Project\Projects\UnrealEngine_Study\VR_Live_Test\Content\Blueprints\BP_Saber.uasset: [Compiler] The property associated with  Cube  could not be found in '/Game/Blueprints/BP_Saber.BP_Saber_C'
+[2023.12.04-14.55.16:213][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.12.04-14.56.54:576][775]LogEditorTransaction: Undo Straighten Connection(s)
+[2023.12.04-14.57.02:506][624]LogEditorTransaction: Undo Move Node
+[2023.12.04-14.57.02:751][633]LogEditorTransaction: Undo Create Reroute Node
+[2023.12.04-14.57.03:372][687]LogEditorTransaction: Undo Move Node
+[2023.12.04-14.57.24:459][144]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.12.04-14.57.24:462][144]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.57.24:545][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Saber" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset" SILENT=true
+[2023.12.04-14.57.24:555][144]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Saber
+[2023.12.04-14.57.24:555][144]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_SaberF80281A640A3669CE58ED7AC7950A7BE.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset'
+[2023.12.04-14.57.24:561][144]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 7.91 sec)
+[2023.12.04-14.57.24:562][144]AssetCheck: New page: Asset Save: BP_Saber
+[2023.12.04-14.57.24:562][144]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Saber.BP_Saber
+[2023.12.04-14.57.25:568][265]BlueprintLog: New page: Compile BP_Saber
+[2023.12.04-14.57.25:593][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.12.04-14.57.31:560][568]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.04-14.57.31:567][568]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.04-14.57.31:568][568]LogPlayLevel: [PlayLevel] Compiling BP_Cube before play...
+[2023.12.04-14.57.31:599][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.12.04-14.57.31:601][568]LogPlayLevel: PlayLevel: Blueprint regeneration took 34 ms (1 blueprints)
+[2023.12.04-14.57.31:601][568]PIE: New page: PIE session: DevMap (2023. 12. 5. 오전 8:57:31)
+[2023.12.04-14.57.31:602][568]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.57.31:605][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003247s)
+[2023.12.04-14.57.31:605][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.003276s)
+[2023.12.04-14.57.31:615][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.12.04-14.57.31:616][568]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.57.31:616][568]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.57.31:616][568]LogAIModule: Creating AISystem for world DevMap
+[2023.12.04-14.57.31:616][568]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2023.12.04-14.57.31:616][568]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.12.04-14.57.31:616][568]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-14.57.31:616][568]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-14.57.31:616][568]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-14.57.31:616][568]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-14.57.31:616][568]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-14.57.31:616][568]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-14.57.31:616][568]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-14.57.31:616][568]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-14.57.31:617][568]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-14.57.31:617][568]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-14.57.31:617][568]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-14.57.31:619][568]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-14.57.31:710][568]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.04-14.57.31:711][568]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-14.57.31:711][568]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-14.57.31:711][568]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-14.57.31:711][568]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.12.04-14.57.31:711][568]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2023.12.04-14.57.31:713][568]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.12.04-14.57.31:713][568]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.12.04-14.57.31:713][568]LogInit: FAudioDevice initialized with ID 37.
+[2023.12.04-14.57.31:713][568]LogAudio: Display: Audio Device (ID: 37) registered with world 'DevMap'.
+[2023.12.04-14.57.31:713][568]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2023.12.04-14.57.31:724][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.57.31:908][568]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.04-14.57.31:909][568]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.04-23.57.31
+[2023.12.04-14.57.31:909][568]LogWorld: Bringing up level for play took: 0.000993
+[2023.12.04-14.57.31:911][568]LogOnline: OSS: Created online subsystem instance for: :Context_87
+[2023.12.04-14.57.31:911][568]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.57.31:912][568]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.57.31:917][568]PIE: Server logged in
+[2023.12.04-14.57.31:918][568]PIE: Play in editor total start time 0.353 seconds.
+[2023.12.04-14.57.31:922][568]LogViewport: Scene viewport resized to 4128x2240, mode Windowed.
+[2023.12.04-14.57.31:949][568]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.04-14.57.34:548][187]LogHMD: Warning: No UPlayerMappableInputConfig provided in the OpenXR Input project settings, action bindings will not be visible to the OpenXR runtime. Action/Axis mappings from the Input configuration are deprecated for XR in favor of Enhanced Input.
+[2023.12.04-14.57.43:622][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.57.43:622][ 17]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.57.43:646][ 17]LogSlate: Window 'VR_Live Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.04-14.57.43:648][ 17]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.57.43:648][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.57.43:658][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-14.57.43:663][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.57.43:672][ 17]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2023.12.04-14.57.43:672][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.12.04-14.57.43:673][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.12.04-14.57.43:681][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.12.04-14.57.43:725][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2023.12.04-14.58.02:448][845]LogEditorTransaction: Undo Attach Component
+[2023.12.04-14.58.02:900][847]LogEditorTransaction: Undo Make New Scene Root
+[2023.12.04-14.58.03:082][848]LogEditorTransaction: Undo Move Node
+[2023.12.04-14.58.06:440][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.58.06:473][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Saber" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset" SILENT=true
+[2023.12.04-14.58.06:481][ 61]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Saber
+[2023.12.04-14.58.06:482][ 61]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_Saber55B78F3249DC30688DBCAC9D5BE65C8A.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Saber.uasset'
+[2023.12.04-14.58.06:489][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 7.96 sec)
+[2023.12.04-14.58.06:489][ 61]AssetCheck: New page: Asset Save: BP_Saber
+[2023.12.04-14.58.06:489][ 61]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Saber.BP_Saber
+[2023.12.04-14.58.07:972][239]BlueprintLog: New page: Compile BP_Saber
+[2023.12.04-14.58.07:999][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.12.04-14.58.09:747][434]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.04-14.58.09:754][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-14.58.09:754][434]PIE: New page: PIE session: DevMap (2023. 12. 5. 오전 8:58:09)
+[2023.12.04-14.58.09:754][434]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.58.09:757][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003196s)
+[2023.12.04-14.58.09:757][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.003222s)
+[2023.12.04-14.58.09:767][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.12.04-14.58.09:769][434]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.58.09:769][434]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.58.09:769][434]LogAIModule: Creating AISystem for world DevMap
+[2023.12.04-14.58.09:770][434]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2023.12.04-14.58.09:770][434]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2023.12.04-14.58.09:770][434]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-14.58.09:770][434]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-14.58.09:770][434]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-14.58.09:770][434]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-14.58.09:770][434]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-14.58.09:770][434]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-14.58.09:770][434]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-14.58.09:770][434]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-14.58.09:770][434]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-14.58.09:770][434]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-14.58.09:770][434]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-14.58.09:771][434]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-14.58.09:863][434]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.04-14.58.09:864][434]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-14.58.09:864][434]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-14.58.09:864][434]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-14.58.09:864][434]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2023.12.04-14.58.09:864][434]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2023.12.04-14.58.09:866][434]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2023.12.04-14.58.09:866][434]LogInit: FAudioDevice initialized with ID 38.
+[2023.12.04-14.58.09:866][434]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2023.12.04-14.58.09:866][434]LogAudio: Display: Audio Device (ID: 38) registered with world 'DevMap'.
+[2023.12.04-14.58.09:866][434]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2023.12.04-14.58.09:878][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.58.10:062][434]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.04-14.58.10:062][434]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.04-23.58.10
+[2023.12.04-14.58.10:063][434]LogWorld: Bringing up level for play took: 0.000934
+[2023.12.04-14.58.10:065][434]LogOnline: OSS: Created online subsystem instance for: :Context_88
+[2023.12.04-14.58.10:066][434]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.58.10:066][434]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.58.10:070][434]PIE: Server logged in
+[2023.12.04-14.58.10:073][434]PIE: Play in editor total start time 0.32 seconds.
+[2023.12.04-14.58.10:077][434]LogViewport: Scene viewport resized to 4128x2240, mode Windowed.
+[2023.12.04-14.58.10:102][434]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.04-14.58.12:584][ 11]LogHMD: Warning: No UPlayerMappableInputConfig provided in the OpenXR Input project settings, action bindings will not be visible to the OpenXR runtime. Action/Axis mappings from the Input configuration are deprecated for XR in favor of Enhanced Input.
+[2023.12.04-14.58.33:652][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.58.33:652][729]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.58.33:679][729]LogSlate: Window 'VR_Live Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.04-14.58.33:681][729]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.58.33:681][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.58.33:699][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-14.58.33:703][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.58.33:712][729]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.04-14.58.33:712][729]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2023.12.04-14.58.33:712][729]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.12.04-14.58.33:714][729]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.12.04-14.58.33:720][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.12.04-14.58.33:763][730]LogPlayLevel: Display: Destroying online subsystem :Context_88
