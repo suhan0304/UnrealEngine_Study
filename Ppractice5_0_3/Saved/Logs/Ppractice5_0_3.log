@@ -1593,3 +1593,285 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.12.04-11.37.53:929][848]LogFileHelpers: Auto-saving content packages took 0.303
 [2023.12.04-11.52.59:906][528]LogD3D12RHI: Warning: GPU timeout: A payload (0x00000B5EF004C900) on the [0x00000B5ED5228300, 3D] queue has not completed after 5.000000 seconds.
 [2023.12.04-11.52.59:992][528]LogD3D12RHI: Warning: GPU timeout: A payload (0x00000B5EF0047700) on the [0x00000B5ED5228300, 3D] queue has not completed after 5.112758 seconds.
+[2023.12.04-12.18.38:274][142]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:19.128 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10107 files in 11498 folders with total size 320 MiB.
+[2023.12.04-12.24.59:825][311]LogShaderCompilers: Display: ================================================
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: Total job queries 3,708, among them cache hits 56 (1.51%)
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: Tracking 3,641 distinct input hashes that result in 2,518 distinct outputs (69.16%)
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: RAM used: 12.48 MiB of 819.20 MiB budget. Usage: 1.52%
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: Shaders Compiled: 3,641
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: Jobs assigned 3,644, completed 3,641 (99.92%)
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: Average time worker was idle: 20.02 s
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: Time job spent in pending queue: average 199.61 s, longest 505.29 s
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: Job execution time: average 7.41 s, max 47.42 s
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: Job life time (pending + execution): average 207.19 s, max 508.42
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: Shader code size: average 13.626 KiB, min 140 B, max 154.367 KiB
+[2023.12.04-12.24.59:826][311]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 616.38 s
+[2023.12.04-12.24.59:827][311]LogShaderCompilers: Display: Jobs were issued in 706 batches (only local compilation was used), average 5.16 jobs/batch
+[2023.12.04-12.24.59:827][311]LogShaderCompilers: Display: Average processing rate: 5.91 jobs/sec
+[2023.12.04-12.24.59:827][311]LogShaderCompilers: Display: Total thread time: 2,803.189 s
+[2023.12.04-12.24.59:827][311]LogShaderCompilers: Display: Total thread preprocess time: 83.713 s
+[2023.12.04-12.24.59:827][311]LogShaderCompilers: Display: Percentage time preprocessing: 2.99%
+[2023.12.04-12.24.59:827][311]LogShaderCompilers: Display: Effective parallelization: 4.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.04-12.24.59:895][311]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 13.91 sec, max 13.91 sec, min 13.91 sec)
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 12.84 sec, max 44.83 sec, min 1.34 sec)
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.56 sec, max 17.17 sec, min 0.27 sec)
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display:                                   FScreenSpaceShortRangeAOCS (compiled   12 times, average 5.41 sec, max 22.87 sec, min 0.40 sec)
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display:                                        FCloudRenderViewPS100 (compiled    1 times, average 4.82 sec, max 4.82 sec, min 4.82 sec)
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 12.14% of total time (compiled  128 times, average 2.66 sec, max 7.53 sec, min 0.56 sec)
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 10.58% of total time (compiled  128 times, average 2.32 sec, max 3.93 sec, min 1.60 sec)
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display:                                             FDeferredLightPS - 6.49% of total time (compiled   90 times, average 2.02 sec, max 4.19 sec, min 0.34 sec)
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display:                          FReflectionEnvironmentSkyLightingPS - 5.56% of total time (compiled   96 times, average 1.62 sec, max 3.70 sec, min 0.35 sec)
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 4.86% of total time (compiled   34 times, average 4.01 sec, max 6.93 sec, min 1.84 sec)
+[2023.12.04-12.24.59:896][311]LogShaderCompilers: Display: ================================================
+[2023.12.04-12.25.19:173][780]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-12.25.30:561][967]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-12.26.01:705][304]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_Saber.M_Saber
+[2023.12.04-12.26.02:562][304]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-12.26.02:562][304]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-12.26.03:123][304]LogStaticMesh: Display: Building static mesh Sphere_inversenormals...
+[2023.12.04-12.26.03:346][304]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals) ...
+[2023.12.04-12.26.03:904][304]LogStaticMesh: Built static mesh [0.89s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2023.12.04-12.26.04:135][304]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.12.04-12.26.04:832][304]LogStaticMesh: Display: Building static mesh Floor_Mesh...
+[2023.12.04-12.26.04:834][304]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2023.12.04-12.26.06:140][304]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 4.052164s (2.052164s overbudget)
+[2023.12.04-12.26.06:243][304]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.26.06:243][304]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.26.06:243][304]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.26.06:243][304]MaterialEditorStats: Shader Count: 0
+[2023.12.04-12.26.06:262][304]LogViewport: Scene viewport resized to 504x628, mode Windowed.
+[2023.12.04-12.26.07:070][306]MaterialEditorStats: Base pass shader without light map: 80 instructions
+[2023.12.04-12.26.07:070][306]MaterialEditorStats: Base pass vertex shader: 151 instructions
+[2023.12.04-12.26.07:070][306]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.26.07:070][306]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.26.07:070][306]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.26.07:070][306]MaterialEditorStats: Shader Count: 12
+[2023.12.04-12.26.19:074][682]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-12.26.19:074][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-12.27.22:806][443]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_Saber.M_Saber
+[2023.12.04-12.27.22:811][443]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-12.27.22:811][443]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-12.27.22:935][443]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.27.22:935][443]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.27.22:935][443]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.27.22:935][443]MaterialEditorStats: Shader Count: 0
+[2023.12.04-12.27.22:938][443]LogViewport: Scene viewport resized to 504x628, mode Windowed.
+[2023.12.04-12.27.23:094][445]MaterialEditorStats: Base pass shader without light map: 80 instructions
+[2023.12.04-12.27.23:094][445]MaterialEditorStats: Base pass vertex shader: 151 instructions
+[2023.12.04-12.27.23:094][445]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.27.23:094][445]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.27.23:094][445]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.27.23:094][445]MaterialEditorStats: Shader Count: 12
+[2023.12.04-12.27.54:971][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.12.04-12.27.55:065][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeatMapSun" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.12.04-12.27.55:244][345]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BeatMapSun_Auto2
+[2023.12.04-12.27.55:245][345]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/BeatMapSun_Auto254781CAF4E13ACC0034CC688775FC184.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto2.umap'
+[2023.12.04-12.27.55:321][345]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto2.umap is in the /Temp path, will not scan.
+[2023.12.04-12.27.55:321][345]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BeatMapSun' took 0.415
+[2023.12.04-12.27.55:321][345]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.415
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: ================================================
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: Total job queries 3,768, among them cache hits 90 (2.39%)
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: Tracking 3,664 distinct input hashes that result in 2,534 distinct outputs (69.16%)
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: RAM used: 12.53 MiB of 819.20 MiB budget. Usage: 1.53%
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: Shaders Compiled: 3,664
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: Jobs assigned 3,664, completed 3,664 (100%)
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: Average time worker was idle: 19.83 s
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: Time job spent in pending queue: average 198.52 s, longest 505.29 s
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: Job execution time: average 7.37 s, max 47.42 s
+[2023.12.04-12.28.06:349][853]LogShaderCompilers: Display: Job life time (pending + execution): average 205.89 s, max 508.42
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display: Shader code size: average 13.564 KiB, min 140 B, max 154.367 KiB
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 619.28 s
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display: Jobs were issued in 726 batches (only local compilation was used), average 5.05 jobs/batch
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display: Average processing rate: 5.92 jobs/sec
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display: Total thread time: 2,811.491 s
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display: Total thread preprocess time: 84.557 s
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display: Percentage time preprocessing: 3.01%
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display: Effective parallelization: 4.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 13.91 sec, max 13.91 sec, min 13.91 sec)
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 12.84 sec, max 44.83 sec, min 1.34 sec)
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.56 sec, max 17.17 sec, min 0.27 sec)
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display:                                   FScreenSpaceShortRangeAOCS (compiled   12 times, average 5.41 sec, max 22.87 sec, min 0.40 sec)
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display:                                        FCloudRenderViewPS100 (compiled    1 times, average 4.82 sec, max 4.82 sec, min 4.82 sec)
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 12.10% of total time (compiled  128 times, average 2.66 sec, max 7.53 sec, min 0.56 sec)
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 10.55% of total time (compiled  128 times, average 2.32 sec, max 3.93 sec, min 1.60 sec)
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display:                                             FDeferredLightPS - 6.47% of total time (compiled   90 times, average 2.02 sec, max 4.19 sec, min 0.34 sec)
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display:                          FReflectionEnvironmentSkyLightingPS - 5.54% of total time (compiled   96 times, average 1.62 sec, max 3.70 sec, min 0.35 sec)
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 4.85% of total time (compiled   34 times, average 4.01 sec, max 6.93 sec, min 1.84 sec)
+[2023.12.04-12.28.06:350][853]LogShaderCompilers: Display: ================================================
+[2023.12.04-12.28.19:768][414]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.28.19:768][414]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.28.19:768][414]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.28.19:768][414]MaterialEditorStats: Shader Count: 0
+[2023.12.04-12.28.19:850][416]MaterialEditorStats: Base pass shader without light map: 80 instructions
+[2023.12.04-12.28.19:850][416]MaterialEditorStats: Base pass vertex shader: 151 instructions
+[2023.12.04-12.28.19:850][416]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.28.19:850][416]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.28.19:850][416]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.28.19:850][416]MaterialEditorStats: Shader Count: 12
+[2023.12.04-12.28.21:065][556]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.28.21:066][556]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.28.21:066][556]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.28.21:066][556]MaterialEditorStats: Shader Count: 0
+[2023.12.04-12.28.21:145][558]MaterialEditorStats: Base pass shader without light map: 80 instructions
+[2023.12.04-12.28.21:145][558]MaterialEditorStats: Base pass vertex shader: 151 instructions
+[2023.12.04-12.28.21:145][558]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.28.21:145][558]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.28.21:145][558]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.28.21:145][558]MaterialEditorStats: Shader Count: 12
+[2023.12.04-12.28.26:382][176]LogEditorTransaction: Undo Material Editor: Delete
+[2023.12.04-12.28.26:429][176]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.28.26:429][176]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.28.26:429][176]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.28.26:429][176]MaterialEditorStats: Shader Count: 0
+[2023.12.04-12.28.26:513][178]MaterialEditorStats: Base pass shader without light map: 80 instructions
+[2023.12.04-12.28.26:513][178]MaterialEditorStats: Base pass vertex shader: 151 instructions
+[2023.12.04-12.28.26:513][178]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.28.26:513][178]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.28.26:513][178]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.28.26:513][178]MaterialEditorStats: Shader Count: 12
+[2023.12.04-12.28.27:201][235]LogEditorTransaction: Undo Material Editor: Delete
+[2023.12.04-12.28.27:221][235]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.28.27:221][235]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.28.27:221][235]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.28.27:221][235]MaterialEditorStats: Shader Count: 0
+[2023.12.04-12.28.27:315][237]MaterialEditorStats: Base pass shader without light map: 80 instructions
+[2023.12.04-12.28.27:315][237]MaterialEditorStats: Base pass vertex shader: 151 instructions
+[2023.12.04-12.28.27:315][237]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.04-12.28.27:315][237]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.04-12.28.27:315][237]MaterialEditorStats: LWC Multiply Vector Matrix usages (Est.): 2
+[2023.12.04-12.28.27:315][237]MaterialEditorStats: Shader Count: 12
+[2023.12.04-12.28.49:643][135]LogSlate: Window 'Message' being destroyed
+[2023.12.04-12.28.49:649][135]Message dialog closed, result: No, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/M_Saber.M_Saber
+(Selecting 'No' will cause all changes to be lost!)
+[2023.12.04-12.28.49:670][135]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-12.28.49:670][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-12.32.05:271][263]Cmd: DELETE
+[2023.12.04-12.32.05:271][263]Cmd: ACTOR DELETE
+[2023.12.04-12.32.05:314][263]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-12.32.05:375][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.12.04-12.32.05:388][263]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2023.12.04-12.32.06:028][323]Cmd: DELETE
+[2023.12.04-12.32.06:028][323]Cmd: ACTOR DELETE
+[2023.12.04-12.32.06:029][323]LogEditorActor: Deleted Actor: SkyAtmosphere
+[2023.12.04-12.32.06:064][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.12.04-12.32.06:066][323]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2023.12.04-12.32.08:949][656]Cmd: DELETE
+[2023.12.04-12.32.08:949][656]Cmd: ACTOR DELETE
+[2023.12.04-12.32.08:950][656]LogEditorActor: Deleted Actor: VolumetricCloud
+[2023.12.04-12.32.08:984][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.12.04-12.32.08:985][656]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2023.12.04-12.32.09:549][720]Cmd: DELETE
+[2023.12.04-12.32.09:549][720]Cmd: ACTOR DELETE
+[2023.12.04-12.32.09:550][720]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2023.12.04-12.32.09:560][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.12.04-12.32.09:561][720]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.12.04-12.38.15:886][950]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.12.04-12.38.15:887][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeatMapSun" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.12.04-12.38.15:906][950]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BeatMapSun_Auto3
+[2023.12.04-12.38.15:907][950]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/BeatMapSun_Auto306FF55F442F6CA6C7941678422FC9F40.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto3.umap'
+[2023.12.04-12.38.16:009][950]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/BeatMapSun_Auto3.umap is in the /Temp path, will not scan.
+[2023.12.04-12.38.16:009][950]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BeatMapSun' took 0.132
+[2023.12.04-12.38.16:009][950]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.132
+[2023.12.04-12.38.16:009][950]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Engine/EngineSky/M_SimpleSkyDome] ([1] browsable assets)...
+[2023.12.04-12.38.16:009][950]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineSky/M_SimpleSkyDome]
+[2023.12.04-12.38.16:011][950]LogSavePackage: Moving output files for package: /Temp/Autosaves/Engine/EngineSky/M_SimpleSkyDome_Auto3
+[2023.12.04-12.38.16:011][950]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/M_SimpleSkyDome_Auto37B68697E400E8DD99EB207B11087AA10.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Engine/EngineSky/M_SimpleSkyDome_Auto3.uasset'
+[2023.12.04-12.38.16:011][950]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/M_Saber] ([1] browsable assets)...
+[2023.12.04-12.38.16:011][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Saber]
+[2023.12.04-12.38.16:011][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Saber" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Saber_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.12.04-12.38.16:021][950]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_Saber_Auto3
+[2023.12.04-12.38.16:021][950]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/M_Saber_Auto350CE072D41BA16B0332F2486B5538A86.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Saber_Auto3.uasset'
+[2023.12.04-12.38.16:022][950]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/M_Lighting] ([1] browsable assets)...
+[2023.12.04-12.38.16:022][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Lighting]
+[2023.12.04-12.38.16:022][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Lighting" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Lighting_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.12.04-12.38.16:026][950]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_Lighting_Auto3
+[2023.12.04-12.38.16:026][950]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/M_Lighting_Auto32403D8084D6B2A5E7407FDB1E2523543.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Lighting_Auto3.uasset'
+[2023.12.04-12.38.16:026][950]LogFileHelpers: Auto-saving content packages took 0.018
+[2023.12.04-12.40.33:176][ 97]Cmd: DELETE
+[2023.12.04-12.40.33:176][ 97]Cmd: ACTOR DELETE
+[2023.12.04-12.40.33:179][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.04-12.40.33:190][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.12.04-12.40.33:192][ 97]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2023.12.04-12.40.44:309][315]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-12.40.46:971][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeatMapSun" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Content/BeatMapSun.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.04-12.40.47:198][315]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.12.04-12.40.47:222][315]LogSavePackage: Moving output files for package: /Game/BeatMapSun
+[2023.12.04-12.40.47:222][315]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/BeatMapSun6AC3874446E90CC3990BB18C48800EB3.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Content/BeatMapSun.umap'
+[2023.12.04-12.40.47:754][315]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/BeatMapSun_BuiltData
+[2023.12.04-12.40.47:754][315]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-12.40.47:755][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BeatMapSun_BuiltData" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Content/BeatMapSun_BuiltData.uasset" SILENT=true
+[2023.12.04-12.40.48:289][315]LogSavePackage: Moving output files for package: /Game/BeatMapSun_BuiltData
+[2023.12.04-12.40.48:289][315]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/BeatMapSun_BuiltData2ECD8F7243AD23C6AE3D0BB65B2CADA3.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Content/BeatMapSun_BuiltData.uasset'
+[2023.12.04-12.40.48:375][315]LogFileHelpers: InternalPromptForCheckoutAndSave took 620 ms
+[2023.12.04-12.40.48:375][315]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/BeatMapSun_BuiltData
+[2023.12.04-12.40.48:375][315]LogFileHelpers: Saving map 'BeatMapSun' took 1.404
+[2023.12.04-12.40.48:379][315]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.06 sec (total: 4.69 sec)
+[2023.12.04-12.40.48:500][315]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.04-12.40.48:500][315]LogContentValidation: Display: Validating /Script/Engine.World /Game/BeatMapSun.BeatMapSun
+[2023.12.04-12.40.48:501][315]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/BeatMapSun_BuiltData.BeatMapSun_BuiltData
+[2023.12.04-12.53.09:992][418]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.53.10:017][418]LogViewport: Scene viewport resized to 1525x979, mode Windowed.
+[2023.12.04-12.57.15:930][409]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.16:008][409]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.16:663][476]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.19:281][784]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.19:333][784]BlueprintLog: New page: Collapse to Function
+[2023.12.04-12.57.19:353][784]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.19:358][784]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.19:381][784]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.19:385][784]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.20:411][889]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2023.12.04-12.57.20:413][889]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.20:442][889]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.22:331][ 85]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.22:337][ 85]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.22:341][ 85]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.23:159][179]LogEditorTransaction: Undo Expand Node
+[2023.12.04-12.57.23:160][179]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.23:188][179]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.24:322][309]LogEditorTransaction: Undo Rename Node
+[2023.12.04-12.57.24:323][309]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.24:351][309]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.24:804][338]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2023.12.04-12.57.24:806][338]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.24:832][338]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.28:140][720]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.28:143][720]BlueprintLog: New page: Collapse to Function
+[2023.12.04-12.57.28:144][720]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.28:149][720]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.28:153][720]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.28:158][720]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.28:162][720]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.28:916][807]LogEditorTransaction: Undo Convert Collapse Graph to Function
+[2023.12.04-12.57.28:918][807]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.28:945][807]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-12.57.57:681][513]LogUObjectHash: Compacting FUObjectHashTables data took   9.37ms
+[2023.12.04-12.57.57:683][513]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BeatMapSun' took 0.058
+[2023.12.04-12.57.57:684][513]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Engine/EngineSky/M_SimpleSkyDome] ([1] browsable assets)...
+[2023.12.04-12.57.57:684][513]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineSky/M_SimpleSkyDome]
+[2023.12.04-12.57.57:686][513]LogSavePackage: Moving output files for package: /Temp/Autosaves/Engine/EngineSky/M_SimpleSkyDome_Auto4
+[2023.12.04-12.57.57:686][513]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/M_SimpleSkyDome_Auto4F0F59E824CE9967CB275B5A34D30BA84.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Engine/EngineSky/M_SimpleSkyDome_Auto4.uasset'
+[2023.12.04-12.57.57:687][513]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/M_Saber] ([1] browsable assets)...
+[2023.12.04-12.57.57:687][513]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Saber]
+[2023.12.04-12.57.57:687][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Saber" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Saber_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.12.04-12.57.57:697][513]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_Saber_Auto4
+[2023.12.04-12.57.57:697][513]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/M_Saber_Auto49FA7695E4168B0145ADF899ACEE28A5C.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Saber_Auto4.uasset'
+[2023.12.04-12.57.57:698][513]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/M_Lighting] ([1] browsable assets)...
+[2023.12.04-12.57.57:698][513]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_Lighting]
+[2023.12.04-12.57.57:698][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Lighting" FILE="../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Lighting_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.12.04-12.57.57:702][513]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_Lighting_Auto4
+[2023.12.04-12.57.57:702][513]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/M_Lighting_Auto43F161276458437E71A135FB23403C0E3.tmp' to '../../../../Projects/UnrealEngine_Study/Ppractice5_0_3/Saved/Autosaves/Game/Materials/M_Lighting_Auto4.uasset'
+[2023.12.04-12.57.58:193][513]LogFileHelpers: Auto-saving content packages took 0.510
+[2023.12.04-13.18.39:280][271]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:20.134 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10253 files in 11671 folders with total size 322 MiB.
+[2023.12.04-13.20.43:754][644]LogViewport: Scene viewport resized to 1525x979, mode Windowed.
