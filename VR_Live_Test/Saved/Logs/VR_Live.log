@@ -4540,3 +4540,435 @@ Please use /Niagara/Modules/Spawn/Initialization/V2/InitializeParticle.Initializ
 [2023.12.04-14.26.58:254][889]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
 [2023.12.04-14.27.20:529][959]LogSlate: Window 'BP_Blade' being destroyed
 [2023.12.04-14.28.43:226][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.04-14.28.57:901][685]BlueprintLog: New page: Compile DevMap
+[2023.12.04-14.28.57:926][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.12.04-14.28.59:463][842]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.28.59:463][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.29.16:559][960]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2023.12.04-14.29.27:526][130]BlueprintLog: New page: Compile BP_Blade
+[2023.12.04-14.29.27:555][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.12.04-14.29.51:494][486]LogAssetTools: Warning: Failed to import 'D:\Unreal Project\Projects\UnrealEngine_Study\Ppractice5_0_3\Content\BP_Cube1.uasset'. Unknown extension 'uasset'.
+[2023.12.04-14.31.08:931][756]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Sample/BP_Cube.BP_Cube
+[2023.12.04-14.31.08:931][756]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.31.08:931][756]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.31.09:207][756]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.31.09:251][756]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.31.09:251][756]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2023.12.04-14.31.18:248][835]LogViewport: Scene viewport resized to 1139x709, mode Windowed.
+[2023.12.04-14.31.18:412][837]LogViewport: Scene viewport resized to 506x253, mode Windowed.
+[2023.12.04-14.31.18:564][838]LogViewport: Scene viewport resized to 467x225, mode Windowed.
+[2023.12.04-14.31.18:950][874]LogSlate: Window 'BP_Cube' being destroyed
+[2023.12.04-14.31.18:966][874]LogViewport: Scene viewport resized to 469x233, mode Windowed.
+[2023.12.04-14.31.20:834][ 33]LogViewport: Scene viewport resized to 469x234, mode Windowed.
+[2023.12.04-14.31.20:868][ 33]LogViewport: Scene viewport resized to 475x242, mode Windowed.
+[2023.12.04-14.31.20:901][ 33]LogViewport: Scene viewport resized to 493x266, mode Windowed.
+[2023.12.04-14.31.20:939][ 33]LogViewport: Scene viewport resized to 532x307, mode Windowed.
+[2023.12.04-14.31.20:978][ 33]LogViewport: Scene viewport resized to 593x370, mode Windowed.
+[2023.12.04-14.31.21:019][ 33]LogViewport: Scene viewport resized to 656x439, mode Windowed.
+[2023.12.04-14.31.21:080][ 33]LogViewport: Scene viewport resized to 757x565, mode Windowed.
+[2023.12.04-14.31.21:115][ 33]LogViewport: Scene viewport resized to 801x626, mode Windowed.
+[2023.12.04-14.31.21:152][ 33]LogViewport: Scene viewport resized to 833x626, mode Windowed.
+[2023.12.04-14.31.21:190][ 33]LogViewport: Scene viewport resized to 850x626, mode Windowed.
+[2023.12.04-14.31.21:227][ 33]LogViewport: Scene viewport resized to 852x626, mode Windowed.
+[2023.12.04-14.31.21:365][ 33]LogViewport: Scene viewport resized to 833x974, mode Windowed.
+[2023.12.04-14.31.21:934][ 78]LogViewport: Scene viewport resized to 469x233, mode Windowed.
+[2023.12.04-14.31.22:216][ 78]LogViewport: Scene viewport resized to 1525x979, mode Windowed.
+[2023.12.04-14.31.35:084][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.12.04-14.31.35:088][205]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.31.35:396][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Cube" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset" SILENT=true
+[2023.12.04-14.31.35:415][205]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Cube
+[2023.12.04-14.31.35:415][205]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_Cube6C0866564FAD113E770AE6A19FB839C0.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset'
+[2023.12.04-14.31.35:423][205]LogFileHelpers: InternalPromptForCheckoutAndSave took 335 ms (total: 6.21 sec)
+[2023.12.04-14.31.35:424][205]AssetCheck: New page: Asset Save: BP_Cube
+[2023.12.04-14.31.35:424][205]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Cube.BP_Cube
+[2023.12.04-14.31.35:969][252]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:20.182 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10452 files in 11867 folders with total size 333 MiB.
+[2023.12.04-14.31.56:809][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.12.04-14.31.56:813][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.31.56:849][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Cube" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset" SILENT=true
+[2023.12.04-14.31.56:855][ 55]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Cube
+[2023.12.04-14.31.56:856][ 55]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_CubeB8C414A3457E1078A22998ADAFB6E4CB.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset'
+[2023.12.04-14.31.56:862][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 6.25 sec)
+[2023.12.04-14.31.56:863][ 55]AssetCheck: New page: Asset Save: BP_Cube
+[2023.12.04-14.31.56:863][ 55]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Cube.BP_Cube
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: ================================================
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Total job queries 102, among them cache hits 28 (27.45%)
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Tracking 72 distinct input hashes that result in 51 distinct outputs (70.83%)
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: RAM used: 2.66 MiB of 819.20 MiB budget. Usage: 0.32%
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Shaders Compiled: 27
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Jobs assigned 29, completed 27 (93.10%)
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Average time worker was idle: 448.88 s
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.59 s
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Job execution time: average 0.86 s, max 2.77 s
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Job life time (pending + execution): average 0.94 s, max 2.77
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Shader code size: average 61.957 KiB, min 4.566 KiB, max 85.672 KiB
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.26 s
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Jobs were issued in 29 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Average processing rate: 2.04 jobs/sec
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Total thread time: 13.907 s
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Total thread preprocess time: 0.804 s
+[2023.12.04-14.32.27:340][458]LogShaderCompilers: Display: Percentage time preprocessing: 5.78%
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display: Effective parallelization: 1.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 1.63 sec, max 1.63 sec, min 1.63 sec)
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    3 times, average 1.50 sec, max 1.61 sec, min 1.38 sec)
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.48 sec, max 1.60 sec, min 0.23 sec)
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    9 times, average 0.30 sec, max 0.36 sec, min 0.27 sec)
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 32.46% of total time (compiled    3 times, average 1.50 sec, max 1.61 sec, min 1.38 sec)
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.65% of total time (compiled    6 times, average 0.48 sec, max 1.60 sec, min 0.23 sec)
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.71% of total time (compiled    9 times, average 0.30 sec, max 0.36 sec, min 0.27 sec)
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 11.73% of total time (compiled    1 times, average 1.63 sec, max 1.63 sec, min 1.63 sec)
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 2.75% of total time (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2023.12.04-14.32.27:341][458]LogShaderCompilers: Display: ================================================
+[2023.12.04-14.32.33:167][805]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.32.36:124][979]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.32.39:550][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.12.04-14.32.39:553][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.32.39:575][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Sample/BP_Cube" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Sample/BP_Cube.uasset" SILENT=true
+[2023.12.04-14.32.39:584][ 79]LogSavePackage: Moving output files for package: /Game/Blueprints/Sample/BP_Cube
+[2023.12.04-14.32.39:584][ 79]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_CubeB57979CB46C36D14AC65878A7AD7739A.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/Sample/BP_Cube.uasset'
+[2023.12.04-14.32.39:592][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave took 38 ms (total: 6.29 sec)
+[2023.12.04-14.32.39:632][ 79]AssetCheck: New page: Asset Save: BP_Cube
+[2023.12.04-14.32.39:632][ 79]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Sample/BP_Cube.BP_Cube
+[2023.12.04-14.32.40:553][ 88]BlueprintLog: New page: Compile BP_Cube
+[2023.12.04-14.32.40:559][ 88]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.32.40:683][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.12.04-14.32.40:684][ 88]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.32.40:686][ 88]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.32.40:730][ 88]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.32.41:026][ 93]BlueprintLog: New page: Compile BP_Cube
+[2023.12.04-14.32.41:032][ 93]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.32.41:077][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.12.04-14.32.41:079][ 93]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.32.41:082][ 93]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.32.41:128][ 93]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.32.41:689][106]LogSlate: Window 'BP_Cube' being destroyed
+[2023.12.04-14.32.41:700][106]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.32.41:700][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.32.46:499][421]Cmd: EDIT CUT
+[2023.12.04-14.32.46:578][421]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2023.12.04-14.32.46:589][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.12.04-14.32.46:591][421]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2023.12.04-14.32.47:910][578]Cmd: TRANSACTION UNDO
+[2023.12.04-14.32.47:910][578]LogEditorTransaction: Undo Cut
+[2023.12.04-14.32.49:309][712]Cmd: EDIT CUT
+[2023.12.04-14.32.49:310][712]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2023.12.04-14.32.49:321][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.12.04-14.32.49:323][712]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2023.12.04-14.32.49:813][771]Cmd: TRANSACTION UNDO
+[2023.12.04-14.32.49:813][771]LogEditorTransaction: Undo Cut
+[2023.12.04-14.33.02:081][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.12.04-14.33.03:394][ 75]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.04-14.33.03:572][ 75]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.04-14.33.03:572][ 75]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.33.03:572][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.33.03:683][ 75]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.33.03:683][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.33.03:704][ 75]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/BP_Cube.BP_Cube
+	Asset Type: Blueprint
+[2023.12.04-14.33.03:958][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.12.04-14.33.03:992][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.12.04-14.33.04:003][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.12.04-14.33.04:013][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.BP_Cube:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.BP_Cube_C' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.BP_Cube:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.BP_Cube:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.BP_Cube:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.SKEL_BP_Cube_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.SKEL_BP_Cube_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.SKEL_BP_Cube_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.SKEL_BP_Cube_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.SKEL_BP_Cube_C' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.BP_Cube_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.BP_Cube_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.BP_Cube_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:533][590]LogMetaData: Removing '/Game/Blueprints/BP_Cube.BP_Cube_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Sample/BP_Cube.PackageMetaData'
+[2023.12.04-14.33.08:543][590]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.33.08:576][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Cube" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset" SILENT=true
+[2023.12.04-14.33.08:584][590]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Cube
+[2023.12.04-14.33.08:584][590]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_CubeBBD3CD4445ABF8190D8451A1FA4DEF18.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset'
+[2023.12.04-14.33.08:594][590]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 6.34 sec)
+[2023.12.04-14.33.08:610][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.12.04-14.33.08:621][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.12.04-14.33.08:630][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.12.04-14.33.08:682][590]AssetCheck: New page: Asset Save: BP_Cube
+[2023.12.04-14.33.08:682][590]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Cube.BP_Cube
+[2023.12.04-14.33.11:337][903]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Cube.BP_Cube
+[2023.12.04-14.33.11:337][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.33.11:337][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.33.11:435][903]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.33.18:435][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.12.04-14.33.18:439][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.33.18:465][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.04-14.33.18:493][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.04-14.33.18:515][719]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.12.04-14.33.18:516][719]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/DevMap27C78EE445D218CE0A6B0EACBFDC6FF2.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap'
+[2023.12.04-14.33.18:521][719]LogFileHelpers: All files are already saved.
+[2023.12.04-14.33.18:521][719]LogFileHelpers: Saving map 'DevMap' took 0.056
+[2023.12.04-14.33.18:526][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 6.43 sec)
+[2023.12.04-14.33.18:528][719]AssetCheck: New page: Asset Save: DevMap
+[2023.12.04-14.33.18:528][719]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.12.04-14.33.31:054][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.04-14.33.46:930][813]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.04-14.33.46:935][813]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.04-14.33.46:935][813]LogPlayLevel: [PlayLevel] Compiling DevMap before play...
+[2023.12.04-14.33.47:005][813]LogBlueprint: Error: [AssetLog] D:\Unreal Project\Projects\UnrealEngine_Study\VR_Live_Test\Content\Maps\DevMap.umap: [Compiler] Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2023.12.04-14.33.47:128][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.12.04-14.33.47:129][813]LogPlayLevel: PlayLevel: Blueprint regeneration took 194 ms (1 blueprints)
+[2023.12.04-14.33.47:129][813]BlueprintLog: Warning: Blueprint failed to compile:  DevMap
+[2023.12.04-14.33.49:974][813]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.12.04-14.33.51:564][971]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/DevMap.DevMap:PersistentLevel.DevMap
+[2023.12.04-14.33.51:564][971]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.33.51:564][971]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.33.51:633][971]LogBlueprint: Warning: Unknown type of hyperlinked object (DevMap), cannot focus it
+[2023.12.04-14.33.51:636][971]LogBlueprint: Warning: Unknown type of hyperlinked object (DevMap), cannot focus it
+[2023.12.04-14.33.51:720][972]LogBlueprint: Warning: Unknown type of hyperlinked object (DevMap), cannot focus it
+[2023.12.04-14.33.51:720][972]LogBlueprint: Warning: Unknown type of hyperlinked object (DevMap), cannot focus it
+[2023.12.04-14.33.52:469][ 62]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-14.33.52:476][ 62]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-14.33.57:320][623]BlueprintLog: New page: Compile DevMap
+[2023.12.04-14.33.57:341][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.12.04-14.33.59:426][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.12.04-14.33.59:430][865]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.33.59:452][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.04-14.33.59:480][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.12.04-14.33.59:503][865]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.12.04-14.33.59:504][865]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/DevMapD540FBF5460D65F2A6FC98AFFC32A633.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Maps/DevMap.umap'
+[2023.12.04-14.33.59:533][865]LogFileHelpers: All files are already saved.
+[2023.12.04-14.33.59:533][865]LogFileHelpers: Saving map 'DevMap' took 0.080
+[2023.12.04-14.33.59:539][865]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 6.54 sec)
+[2023.12.04-14.33.59:539][865]AssetCheck: New page: Asset Save: DevMap
+[2023.12.04-14.33.59:539][865]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.12.04-14.33.59:844][901]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.04-14.33.59:851][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-14.33.59:851][901]PIE: New page: PIE session: DevMap (2023. 12. 5. 오전 8:33:59)
+[2023.12.04-14.33.59:851][901]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.33.59:854][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003247s)
+[2023.12.04-14.33.59:854][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.003272s)
+[2023.12.04-14.33.59:863][901]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.12.04-14.33.59:864][901]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.33.59:864][901]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.33.59:864][901]LogAIModule: Creating AISystem for world DevMap
+[2023.12.04-14.33.59:864][901]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2023.12.04-14.33.59:864][901]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2023.12.04-14.33.59:864][901]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-14.33.59:864][901]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-14.33.59:864][901]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-14.33.59:864][901]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-14.33.59:864][901]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-14.33.59:864][901]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-14.33.59:864][901]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-14.33.59:864][901]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-14.33.59:865][901]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-14.33.59:865][901]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-14.33.59:865][901]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-14.33.59:867][901]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-14.33.59:960][901]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.04-14.33.59:960][901]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-14.33.59:960][901]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-14.33.59:960][901]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-14.33.59:961][901]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2023.12.04-14.33.59:961][901]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2023.12.04-14.33.59:963][901]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2023.12.04-14.33.59:964][901]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2023.12.04-14.33.59:964][901]LogInit: FAudioDevice initialized with ID 33.
+[2023.12.04-14.33.59:964][901]LogAudio: Display: Audio Device (ID: 33) registered with world 'DevMap'.
+[2023.12.04-14.33.59:964][901]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2023.12.04-14.33.59:975][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.34.00:082][901]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.04-14.34.00:083][901]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.04-23.34.00
+[2023.12.04-14.34.00:084][901]LogWorld: Bringing up level for play took: 0.001322
+[2023.12.04-14.34.00:085][901]LogOnline: OSS: Created online subsystem instance for: :Context_78
+[2023.12.04-14.34.00:086][901]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.34.00:087][901]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.34.00:087][901]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.00:092][901]PIE: Server logged in
+[2023.12.04-14.34.00:094][901]PIE: Play in editor total start time 0.245 seconds.
+[2023.12.04-14.34.00:100][901]LogViewport: Scene viewport resized to 4128x2240, mode Windowed.
+[2023.12.04-14.34.00:127][901]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.04-14.34.00:211][904]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.12.04-14.34.00:840][ 28]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.01:840][249]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.02:842][463]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.03:219][551]LogHMD: Warning: No UPlayerMappableInputConfig provided in the OpenXR Input project settings, action bindings will not be visible to the OpenXR runtime. Action/Axis mappings from the Input configuration are deprecated for XR in favor of Enhanced Input.
+[2023.12.04-14.34.03:846][703]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.04:869][938]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.05:858][125]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.06:859][339]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.07:862][563]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.08:863][788]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.09:864][ 13]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.10:865][236]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.11:865][459]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.12:868][683]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.13:868][900]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.14:869][122]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.15:873][347]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.16:873][572]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.17:875][796]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.18:877][ 20]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.19:881][244]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.20:883][468]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.21:885][691]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.22:886][916]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.23:889][139]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.34.24:781][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.34.24:781][325]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.34.24:805][325]LogSlate: Window 'VR_Live Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.04-14.34.24:807][325]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.34.24:807][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.34.24:815][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-14.34.24:818][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.34.24:829][325]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2023.12.04-14.34.24:829][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.12.04-14.34.24:830][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.12.04-14.34.24:836][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.12.04-14.34.24:975][326]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2023.12.04-14.34.30:087][916]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-14.34.30:094][916]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-14.35.10:285][ 84]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-14.35.10:291][ 84]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-14.35.38:433][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.12.04-14.35.47:267][480]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.04-14.35.47:272][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-14.35.47:272][480]PIE: New page: PIE session: DevMap (2023. 12. 5. 오전 8:35:47)
+[2023.12.04-14.35.47:272][480]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.35.47:276][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003349s)
+[2023.12.04-14.35.47:276][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.003375s)
+[2023.12.04-14.35.47:285][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.12.04-14.35.47:286][480]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.35.47:286][480]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.35.47:287][480]LogAIModule: Creating AISystem for world DevMap
+[2023.12.04-14.35.47:287][480]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2023.12.04-14.35.47:287][480]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2023.12.04-14.35.47:287][480]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-14.35.47:287][480]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-14.35.47:287][480]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-14.35.47:287][480]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-14.35.47:287][480]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.04-14.35.47:287][480]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-14.35.47:287][480]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.04-14.35.47:287][480]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-14.35.47:287][480]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-14.35.47:287][480]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-14.35.47:287][480]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-14.35.47:289][480]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.04-14.35.47:382][480]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Hi-Res Audio)
+[2023.12.04-14.35.47:382][480]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-14.35.47:382][480]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-14.35.47:382][480]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-14.35.47:382][480]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2023.12.04-14.35.47:382][480]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2023.12.04-14.35.47:385][480]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2023.12.04-14.35.47:385][480]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2023.12.04-14.35.47:385][480]LogInit: FAudioDevice initialized with ID 34.
+[2023.12.04-14.35.47:385][480]LogAudio: Display: Audio Device (ID: 34) registered with world 'DevMap'.
+[2023.12.04-14.35.47:385][480]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2023.12.04-14.35.47:398][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.35.47:586][480]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.04-14.35.47:587][480]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.12.04-23.35.47
+[2023.12.04-14.35.47:587][480]LogWorld: Bringing up level for play took: 0.001304
+[2023.12.04-14.35.47:590][480]LogOnline: OSS: Created online subsystem instance for: :Context_79
+[2023.12.04-14.35.47:590][480]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.35.47:591][480]LogMotionControllerComponent: Warning: bDisplayDeviceModel is deprecated. Please use XrDeviceVisualizationComponent instead.
+[2023.12.04-14.35.47:591][480]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.47:595][480]PIE: Server logged in
+[2023.12.04-14.35.47:598][480]PIE: Play in editor total start time 0.325 seconds.
+[2023.12.04-14.35.47:599][480]LogHMD: Warning: No UPlayerMappableInputConfig provided in the OpenXR Input project settings, action bindings will not be visible to the OpenXR runtime. Action/Axis mappings from the Input configuration are deprecated for XR in favor of Enhanced Input.
+[2023.12.04-14.35.47:608][480]LogViewport: Scene viewport resized to 4128x2240, mode Windowed.
+[2023.12.04-14.35.47:636][480]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.04-14.35.48:301][524]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.49:300][596]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.50:315][669]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.51:316][741]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.52:316][813]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.53:330][886]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.54:330][958]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.55:331][ 30]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.56:331][102]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.57:331][174]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.58:331][246]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.35.59:345][319]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.00:358][392]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.01:359][464]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.02:373][537]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.03:372][609]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.04:387][682]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.05:399][755]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.06:400][827]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.07:414][900]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.08:413][972]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.09:426][ 44]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.10:438][117]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.11:439][189]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.12:440][261]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.13:441][333]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.14:452][406]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.14:950][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-14.36.14:951][440]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.12.04-14.36.14:976][440]LogSlate: Window 'VR_Live Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.04-14.36.14:978][440]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.36.14:978][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.36.14:983][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-14.36.14:986][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.36.14:995][440]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.04-14.36.14:995][440]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2023.12.04-14.36.14:995][440]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.12.04-14.36.14:997][440]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.12.04-14.36.15:003][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.12.04-14.36.15:095][441]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2023.12.04-14.36.22:000][230]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-14.36.22:006][230]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-14.36.26:402][743]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.12.04-14.36.26:696][743]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.04-14.36.26:696][743]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.04-14.36.27:486][743]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.12.04-14.36.30:802][ 70]LogViewport: Scene viewport resized to 1402x925, mode Windowed.
+[2023.12.04-14.36.30:869][ 72]LogViewport: Scene viewport resized to 600x336, mode Windowed.
+[2023.12.04-14.36.30:909][ 73]LogViewport: Scene viewport resized to 577x319, mode Windowed.
+[2023.12.04-14.36.31:377][123]LogSlate: Window 'Cube' being destroyed
+[2023.12.04-14.36.31:398][123]LogViewport: Scene viewport resized to 580x330, mode Windowed.
+[2023.12.04-14.36.42:501][144]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.42:511][144]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.46:997][299]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.46:998][299]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.51:496][652]LogSlate: Window 'Cube' being destroyed
+[2023.12.04-14.36.51:502][652]LogSlate: Window 'Cube' being destroyed
+[2023.12.04-14.36.51:606][652]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-14.36.51:606][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-14.36.53:023][820]BlueprintLog: New page: Compile BP_Cube
+[2023.12.04-14.36.53:043][820]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.53:059][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.12.04-14.36.53:061][820]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.53:070][820]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.36.53:421][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.12.04-14.36.53:425][858]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.36.53:476][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Cube" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset" SILENT=true
+[2023.12.04-14.36.53:485][858]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Cube
+[2023.12.04-14.36.53:485][858]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_CubeA7EADD0446621820D6240391FAC56981.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset'
+[2023.12.04-14.36.53:490][858]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 6.60 sec)
+[2023.12.04-14.36.53:491][858]AssetCheck: New page: Asset Save: BP_Cube
+[2023.12.04-14.36.53:491][858]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Cube.BP_Cube
+[2023.12.04-14.37.12:974][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.04-14.37.12:978][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.04-14.37.12:998][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Cube" FILE="../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset" SILENT=true
+[2023.12.04-14.37.13:007][185]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Cube
+[2023.12.04-14.37.13:007][185]LogSavePackage: Moving '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Saved/BP_CubeEC92C78D45515E5C460D22A0FF2DDC85.tmp' to '../../../../Projects/UnrealEngine_Study/VR_Live_Test/Content/Blueprints/BP_Cube.uasset'
+[2023.12.04-14.37.13:013][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 6.64 sec)
+[2023.12.04-14.37.13:014][185]AssetCheck: New page: Asset Save: BP_Cube
+[2023.12.04-14.37.13:014][185]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Cube.BP_Cube
+[2023.12.04-14.37.19:826][994]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.37.19:827][994]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2023.12.04-14.37.27:601][849]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.37.27:652][849]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.37.35:314][753]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.38.48:945][589]BlueprintLog: New page: Compile BP_Cube
+[2023.12.04-14.38.48:949][589]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.38.48:965][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.12.04-14.38.48:968][589]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2023.12.04-14.38.48:974][589]PIE: Warning: Calling GetSectionFromStaticMesh on Cube but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
