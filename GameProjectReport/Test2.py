@@ -1,5 +1,6 @@
 from vpython import *
 import random
+import time
 
 # 씬 설정
 scene = canvas()
@@ -38,6 +39,13 @@ def update_counts():
     # 화면에 출력할 label 업데이트
     label_text.text = f"Si (Red): {num_red_spheres}\nC (Purple): {num_purple_spheres}\nO (Black): {num_black_spheres}"
 
+# 화면에 출력할 label 생성
+label_text = label(pos=vector(0, -cylinder_radius, cylinder_height), text="Si (Red): 0\nC (Purple): 0\nO (Black): 0", height=15)
+
+# 초기 카메라 위치 조정
+scene.camera.pos = vector(0, -1, 1)
+scene.camera.axis = vector(0, 0.5, -0.5)
+
 # 구체를 최대한 배치하여 원기둥 공간 채우기
 num_spheres = 0
 max_spheres = 500
@@ -63,18 +71,16 @@ while num_spheres < max_spheres:
             sphere(pos=vector(x, y, z), radius=sphere_radius, color=random_color)
             num_spheres += 1
 
+            # 현재 생성된 구체 갯수 레이블 업데이트
+            update_counts()
+
     rate(100)  # 배치 속도를 적절히 조절
 
-# 화면에 출력할 label 생성
-label_text = label(pos=vector(0, -cylinder_radius, cylinder_height), text="Si (Red): 0\nC (Purple): 0\nO (Black): 0", height=15)
-
-# 사용자가 확인할 색상별 구체 개수를 업데이트할 수 있도록 대화 상자 생성
-while True:
-    user_input = input("Enter 'update' to refresh counts, 'exit' to exit: ")
-    if user_input.lower() == 'update':
-        # 사용자가 확인할 색상별 구체 개수 업데이트
-        update_counts()
-    elif user_input.lower() == 'exit':
+    # 모든 구체를 생성했으면 종료
+    if num_spheres >= max_spheres:
+        print("finished")
         break
-    else:
-        print("Invalid input. Please enter 'update' or 'exit'.")
+
+# 초기 카메라 위치로 되돌리기
+# scene.camera.pos = vector(0, -1, 1)
+# scene.camera.axis = vector(0, 0.5, -0.5)
