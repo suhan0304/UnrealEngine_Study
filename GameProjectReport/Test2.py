@@ -42,10 +42,6 @@ def update_counts():
 # 화면에 출력할 label 생성
 label_text = label(pos=vector(0, -cylinder_radius, cylinder_height), text="Si (Red): 0\nC (Purple): 0\nO (Black): 0", height=15)
 
-# 초기 카메라 위치 조정
-scene.camera.pos = vector(0, -1, 1)
-scene.camera.axis = vector(0, 0.5, -0.5)
-
 # 구체를 최대한 배치하여 원기둥 공간 채우기
 num_spheres = 0
 max_spheres = 500
@@ -78,9 +74,15 @@ while num_spheres < max_spheres:
 
     # 모든 구체를 생성했으면 종료
     if num_spheres >= max_spheres:
-        print("finished")
+        print("Finished creating spheres on the cylinder.")
         break
 
 # 초기 카메라 위치로 되돌리기
 # scene.camera.pos = vector(0, -1, 1)
 # scene.camera.axis = vector(0, 0.5, -0.5)
+
+# 원기둥에서 일정 거리에 떨어진 위치에 초록 구체 생성
+green_sphere_distance = 1.5  # 원기둥에서 떨어진 거리
+green_sphere = sphere(pos=cylinder.pos + vector(0, 0, green_sphere_distance),
+                      radius=sphere_radius, color=color.green)
+print("Green sphere created at a distance from the cylinder.")
