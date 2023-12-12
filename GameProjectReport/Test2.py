@@ -14,6 +14,27 @@ sphere_radius = 0.05  # 구체의 반지름
 # 원기둥 공간을 정의
 cylinder = cylinder(pos=vector(0, 0, 0), axis=vector(0, 0, cylinder_height), radius=cylinder_radius, opacity=0.3)
 
+# 사용자가 확인할 색상별 구체 개수 초기화
+num_red_spheres = 0
+num_purple_spheres = 0
+num_black_spheres = 0
+
+# 사용자가 확인할 색상별 구체 개수 업데이트 함수
+def update_counts():
+    global num_red_spheres, num_purple_spheres, num_black_spheres
+    num_red_spheres = 0
+    num_purple_spheres = 0
+    num_black_spheres = 0
+
+    for obj in scene.objects:
+        if isinstance(obj, sphere):
+            if obj.color == color.red:
+                num_red_spheres += 1
+            elif obj.color == color.purple:
+                num_purple_spheres += 1
+            elif obj.color == color.black:
+                num_black_spheres += 1
+
 # 구체를 최대한 배치하여 원기둥 공간 채우기
 num_spheres = 0
 max_spheres = 500
@@ -34,7 +55,32 @@ while num_spheres < max_spheres:
 
         # 겹치지 않는 경우에만 구체 생성
         if not overlap:
-            sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.blue)
+            # 랜덤하게 색상 선택
+            random_color = random.choice([color.red, color.purple, color.black])
+            sphere(pos=vector(x, y, z), radius=sphere_radius, color=random_color)
             num_spheres += 1
 
-    rate(20)  # 배치 속도를 적절히 조절
+    rate(100)  # 배치 속도를 적절히 조절
+
+# 사용자가 확인할 색상별 구체 개수 업데이트
+update_counts()
+
+# 사용자에게 확인할 색상별 구체 개수 출력
+print(f"Red Spheres: {num_red_spheres}")
+print(f"Purple Spheres: {num_purple_spheres}")
+print(f"Black Spheres: {num_black_spheres}")
+
+# 사용자가 확인할 색상별 구체 개수를 업데이트할 수 있도록 대화 상자 생성
+while True:
+    user_input = input("Enter 'update' to refresh counts, 'exit' to exit: ")
+    if user_input.lower() == 'update':
+        # 사용자가 확인할 색상별 구체 개수 업데이트
+        update_counts()
+        # 사용자에게 확인할 색상별 구체 개수 출력
+        print(f"Red Spheres: {num_red_spheres}")
+        print(f"Purple Spheres: {num_purple_spheres}")
+        print(f"Black Spheres: {num_black_spheres}")
+    elif user_input.lower() == 'exit':
+        break
+    else:
+        print("Invalid input. Please enter 'update' or 'exit'.")
