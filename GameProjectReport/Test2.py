@@ -4,23 +4,24 @@ from vpython import *
 scene = canvas()
 
 # 원기둥의 속성 정의
-num_layers = 10  # 전선의 높이를 구성하는 구체의 층 수
-num_beads_per_layer = 20  # 각 층당 구체의 수
-radius = 1  # 전선의 반지름
+cylinder_radius = 1  # 원기둥의 반지름
+cylinder_height = 3  # 원기둥의 높이
 
-# 구체들을 원기둥 표면에 채워 넣어 전선 생성
-for i in range(num_layers):
-    layer_theta = 2 * pi / num_beads_per_layer
+# 구체의 속성 정의
+sphere_radius = 0.05  # 구체의 반지름
 
-    for j in range(num_beads_per_layer):
-        theta = j * layer_theta
-        x = radius * cos(theta)
-        y = radius * sin(theta)
-        z = i * (2 * radius / num_layers) - radius  # 높이를 조절하여 원기둥 표면에 배치
+# 원기둥 공간을 정의
+cylinder = cylinder(pos=vector(0, 0, 0), axis=vector(0, 0, cylinder_height), radius=cylinder_radius, opacity=0.3)
 
-        # 구체 생성
-        bead = sphere(pos=vector(x, y, z), radius=0.05, color=color.blue)
-
-# VPython 루프 시작
+# 구체를 최대한 배치하여 원기둥 공간 채우기
 while True:
-    rate(60)
+    x = random.uniform(-cylinder_radius, cylinder_radius)
+    y = random.uniform(-cylinder_radius, cylinder_radius)
+    z = random.uniform(0, cylinder_height)
+
+    # 원기둥 내부에 있는지 확인
+    if x**2 + y**2 <= cylinder_radius**2:
+        # 구체 생성
+        sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.blue)
+
+    rate(100)  # 배치 속도를 적절히 조절
