@@ -35,6 +35,9 @@ def update_counts():
             elif obj.color == color.black:
                 num_black_spheres += 1
 
+    # 화면에 출력할 label 업데이트
+    label_text.text = f"Si (Red): {num_red_spheres}\nC (Purple): {num_purple_spheres}\nO (Black): {num_black_spheres}"
+
 # 구체를 최대한 배치하여 원기둥 공간 채우기
 num_spheres = 0
 max_spheres = 500
@@ -62,13 +65,8 @@ while num_spheres < max_spheres:
 
     rate(100)  # 배치 속도를 적절히 조절
 
-# 사용자가 확인할 색상별 구체 개수 업데이트
-update_counts()
-
-# 사용자에게 확인할 색상별 구체 개수 출력
-print(f"Red Spheres: {num_red_spheres}")
-print(f"Purple Spheres: {num_purple_spheres}")
-print(f"Black Spheres: {num_black_spheres}")
+# 화면에 출력할 label 생성
+label_text = label(pos=vector(0, -cylinder_radius, cylinder_height), text="Si (Red): 0\nC (Purple): 0\nO (Black): 0", height=15)
 
 # 사용자가 확인할 색상별 구체 개수를 업데이트할 수 있도록 대화 상자 생성
 while True:
@@ -76,10 +74,6 @@ while True:
     if user_input.lower() == 'update':
         # 사용자가 확인할 색상별 구체 개수 업데이트
         update_counts()
-        # 사용자에게 확인할 색상별 구체 개수 출력
-        print(f"Red Spheres: {num_red_spheres}")
-        print(f"Purple Spheres: {num_purple_spheres}")
-        print(f"Black Spheres: {num_black_spheres}")
     elif user_input.lower() == 'exit':
         break
     else:
