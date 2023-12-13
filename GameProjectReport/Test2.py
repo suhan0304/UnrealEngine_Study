@@ -50,9 +50,9 @@ def update_counts():
 # 화면에 출력할 label 생성
 label_text = label(pos=vector(0, -cylinder_radius, cylinder_height), text="Si (Red): 0\nC (Purple): 0\nO (Black): 0", height=15)
 
-# 초기 카메라 위치 조정
-scene.camera.pos = vector(0, -1, 1)
-scene.camera.axis = vector(0, 0.5, -0.5)
+# 초기 카메라 위치 및 방향 조정
+scene.camera.pos = vector(0, 0, 0)
+scene.camera.axis = vector(1, 0, 0)  # X 축 방향으로 조정
 
 # 초기 비율에 따라 구체를 최대한 배치하여 원기둥 공간 채우기
 num_spheres = 0
@@ -94,6 +94,9 @@ update_counts()
 scene.autoscale = False
 scene.center = vector(0, 0, cylinder_height / 2)  # 원기둥이 중앙에 오도록 조정
 
+# 카메라를 줌 아웃해서 원기둥이 한눈에 들어오도록 조정
+scene.camera.scale = 1.5
+
 # 자동으로 업데이트
 update_interval = 5  # 초 단위 간격으로 업데이트
 next_update_time = time.time() + update_interval
@@ -104,5 +107,10 @@ while True:
         update_counts()
         # 다음 업데이트 시간 설정
         next_update_time = time.time() + update_interval
+
+        # 모든 구체를 생성했으면 종료
+        if num_spheres >= total_spheres:
+            print("Finished creating spheres on the cylinder.")
+            break
 
     rate(1)  # 낮은 속도로 루프를 돌면서 대기
