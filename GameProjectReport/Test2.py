@@ -54,45 +54,49 @@ label_text = label(pos=vector(0, -cylinder_radius, cylinder_height), text="Si (R
 scene.camera.pos = vector(0, 0, 0)
 scene.camera.axis = vector(1, 0, 0)  # X 축 방향으로 조정
 
+# 화면 업데이트
+scene.autoscale = False
+scene.center = vector(0, 0, cylinder_height / 2)  # 원기둥이 중앙에 오도록 조정
+
 # 초기 비율에 따라 구체를 최대한 배치하여 원기둥 공간 채우기
 num_spheres = 0
 
-for _ in range(int(total_spheres * initial_red_ratio)):
+for idx in range(int(total_spheres * initial_red_ratio)):
     x = random.uniform(-cylinder_radius, cylinder_radius)
     y = random.uniform(-cylinder_radius, cylinder_radius)
     z = random.uniform(0, cylinder_height)
 
     # 원기둥 내부에 있는지 확인
     if x**2 + y**2 <= cylinder_radius**2:
+        print(f"Creating Red Sphere {idx + 1}/{int(total_spheres * initial_red_ratio)}")
         sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.red)
         num_spheres += 1
 
-for _ in range(int(total_spheres * initial_purple_ratio)):
+for idx in range(int(total_spheres * initial_purple_ratio)):
     x = random.uniform(-cylinder_radius, cylinder_radius)
     y = random.uniform(-cylinder_radius, cylinder_radius)
     z = random.uniform(0, cylinder_height)
 
     # 원기둥 내부에 있는지 확인
     if x**2 + y**2 <= cylinder_radius**2:
+        print(f"Creating Purple Sphere {idx + 1}/{int(total_spheres * initial_purple_ratio)}")
         sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.purple)
         num_spheres += 1
 
-for _ in range(int(total_spheres * initial_black_ratio)):
+for idx in range(int(total_spheres * initial_black_ratio)):
     x = random.uniform(-cylinder_radius, cylinder_radius)
     y = random.uniform(-cylinder_radius, cylinder_radius)
     z = random.uniform(0, cylinder_height)
 
     # 원기둥 내부에 있는지 확인
     if x**2 + y**2 <= cylinder_radius**2:
+        print(f"Creating Black Sphere {idx + 1}/{int(total_spheres * initial_black_ratio)}")
         sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.black)
         num_spheres += 1
 
 # 현재 생성된 구체 갯수 레이블 업데이트
 update_counts()
 
-# 화면 업데이트
-scene.autoscale = False
-scene.center = vector(0, 0, cylinder_height / 2)  # 원기둥이 중앙에 오도록 조정
 
 # 자동으로 업데이트
 update_interval = 5  # 초 단위 간격으로 업데이트
