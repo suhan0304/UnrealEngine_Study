@@ -3,7 +3,7 @@ import random
 import time
 
 # 씬 설정
-scene = canvas()
+scene = canvas(width=800, height=600)  # 원하는 크기로 지정
 
 # 원기둥의 속성 정의
 cylinder_radius = 0.5  # 원기둥의 반지름
