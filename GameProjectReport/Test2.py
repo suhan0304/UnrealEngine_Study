@@ -76,13 +76,3 @@ while num_spheres < max_spheres:
     if num_spheres >= max_spheres:
         print("Finished creating spheres on the cylinder.")
         break
-
-# 초기 카메라 위치로 되돌리기
-# scene.camera.pos = vector(0, -1, 1)
-# scene.camera.axis = vector(0, 0.5, -0.5)
-
-# 원기둥에서 일정 거리에 떨어진 위치에 초록 구체 생성
-green_sphere_distance = 1.5  # 원기둥에서 떨어진 거리
-green_sphere = sphere(pos=cylinder.pos + vector(0, 0, green_sphere_distance),
-                      radius=sphere_radius, color=color.green)
-print("Green sphere created at a distance from the cylinder.")
