@@ -75,4 +75,11 @@ while num_spheres < max_spheres:
     # 모든 구체를 생성했으면 종료
     if num_spheres >= max_spheres:
         print("Finished creating spheres on the cylinder.")
-        break
+
+        # 원기둥에서 일정 거리 떨어진 곳에 녹색 구체를 생성
+        green_sphere_pos = vector(0, 0, cylinder_height + 1)  # 예시로 높이를 1로 설정
+        green_sphere_radius = 0.1
+        green_sphere = sphere(pos=green_sphere_pos, radius=green_sphere_radius, color=color.green)
+
+        while True:
+            rate(100)
