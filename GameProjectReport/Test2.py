@@ -20,6 +20,14 @@ num_red_spheres = 0
 num_purple_spheres = 0
 num_black_spheres = 0
 
+# 사용자가 설정할 초기 비율
+initial_red_ratio = 0.4  # 빨강 구체 비율
+initial_purple_ratio = 0.3  # 보라 구체 비율
+initial_black_ratio = 0.3  # 검정 구체 비율
+
+# 초기 비율에 따라 생성할 구체의 총 개수
+total_spheres = 500
+
 # 사용자가 확인할 색상별 구체 개수 업데이트 함수
 def update_counts():
     global num_red_spheres, num_purple_spheres, num_black_spheres
@@ -42,44 +50,59 @@ def update_counts():
 # 화면에 출력할 label 생성
 label_text = label(pos=vector(0, -cylinder_radius, cylinder_height), text="Si (Red): 0\nC (Purple): 0\nO (Black): 0", height=15)
 
-# 구체를 최대한 배치하여 원기둥 공간 채우기
-num_spheres = 0
-max_spheres = 500
+# 초기 카메라 위치 조정
+scene.camera.pos = vector(0, -1, 1)
+scene.camera.axis = vector(0, 0.5, -0.5)
 
-while num_spheres < max_spheres:
+# 초기 비율에 따라 구체를 최대한 배치하여 원기둥 공간 채우기
+num_spheres = 0
+
+for _ in range(int(total_spheres * initial_red_ratio)):
     x = random.uniform(-cylinder_radius, cylinder_radius)
     y = random.uniform(-cylinder_radius, cylinder_radius)
     z = random.uniform(0, cylinder_height)
 
     # 원기둥 내부에 있는지 확인
     if x**2 + y**2 <= cylinder_radius**2:
-        # 현재 위치에서 다른 구체들과 겹치지 않는지 확인
-        overlap = False
-        for obj in scene.objects:
-            if isinstance(obj, sphere) and mag(vector(x, y, z) - obj.pos) < (sphere_radius + obj.radius):
-                overlap = True
-                break
+        sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.red)
+        num_spheres += 1
 
-        # 겹치지 않는 경우에만 구체 생성
-        if not overlap:
-            # 랜덤하게 색상 선택
-            random_color = random.choice([color.red, color.purple, color.black])
-            sphere(pos=vector(x, y, z), radius=sphere_radius, color=random_color)
-            num_spheres += 1
+for _ in range(int(total_spheres * initial_purple_ratio)):
+    x = random.uniform(-cylinder_radius, cylinder_radius)
+    y = random.uniform(-cylinder_radius, cylinder_radius)
+    z = random.uniform(0, cylinder_height)
 
-            # 현재 생성된 구체 갯수 레이블 업데이트
-            update_counts()
+    # 원기둥 내부에 있는지 확인
+    if x**2 + y**2 <= cylinder_radius**2:
+        sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.purple)
+        num_spheres += 1
 
-    rate(100)  # 배치 속도를 적절히 조절
+for _ in range(int(total_spheres * initial_black_ratio)):
+    x = random.uniform(-cylinder_radius, cylinder_radius)
+    y = random.uniform(-cylinder_radius, cylinder_radius)
+    z = random.uniform(0, cylinder_height)
 
-    # 모든 구체를 생성했으면 종료
-    if num_spheres >= max_spheres:
-        print("Finished creating spheres on the cylinder.")
+    # 원기둥 내부에 있는지 확인
+    if x**2 + y**2 <= cylinder_radius**2:
+        sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.black)
+        num_spheres += 1
 
-        # 원기둥에서 일정 거리 떨어진 곳에 녹색 구체를 생성
-        green_sphere_pos = vector(0, 0, cylinder_height + 1)  # 예시로 높이를 1로 설정
-        green_sphere_radius = 0.1
-        green_sphere = sphere(pos=green_sphere_pos, radius=green_sphere_radius, color=color.green)
+# 현재 생성된 구체 갯수 레이블 업데이트
+update_counts()
 
-        while True:
-            rate(100)
+# 화면 업데이트
+scene.autoscale = False
+scene.center = vector(0, 0, cylinder_height / 2)  # 원기둥이 중앙에 오도록 조정
+
+# 자동으로 업데이트
+update_interval = 5  # 초 단위 간격으로 업데이트
+next_update_time = time.time() + update_interval
+
+while True:
+    if time.time() >= next_update_time:
+        # 사용자가 확인할 색상별 구체 개수 업데이트
+        update_counts()
+        # 다음 업데이트 시간 설정
+        next_update_time = time.time() + update_interval
+
+    rate(1)  # 낮은 속도로 루프를 돌면서 대기
