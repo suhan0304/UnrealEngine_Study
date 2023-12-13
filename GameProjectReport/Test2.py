@@ -1,7 +1,6 @@
 from vpython import *
 import random
 import time
-from concurrent.futures import ThreadPoolExecutor
 
 # 씬 설정
 scene = canvas(width=800, height=600)  # 원하는 크기로 지정
@@ -52,29 +51,41 @@ def update_counts():
 label_text = label(pos=vector(0, -cylinder_radius, cylinder_height), text="Si (Red): 0\nC (Purple): 0\nO (Black): 0", height=15)
 
 # 초기 카메라 위치 및 방향 조정
-scene.camera.pos = vector(0, 0, 1500)
-scene.camera.axis = vector(1, 0, 0)
+scene.camera.pos = vector(0, 0, 0)
+scene.camera.axis = vector(1, 0, 0)  # X 축 방향으로 조정
 
 # 초기 비율에 따라 구체를 최대한 배치하여 원기둥 공간 채우기
 num_spheres = 0
 
-def create_spheres(color, ratio, count):
-    global num_spheres
-    for _ in range(int(count)):
-        x = random.uniform(-cylinder_radius, cylinder_radius)
-        y = random.uniform(-cylinder_radius, cylinder_radius)
-        z = random.uniform(0, cylinder_height)
+for _ in range(int(total_spheres * initial_red_ratio)):
+    x = random.uniform(-cylinder_radius, cylinder_radius)
+    y = random.uniform(-cylinder_radius, cylinder_radius)
+    z = random.uniform(0, cylinder_height)
 
-        # 원기둥 내부에 있는지 확인
-        if x**2 + y**2 <= cylinder_radius**2:
-            sphere(pos=vector(x, y, z), radius=sphere_radius, color=color)
-            num_spheres += 1
+    # 원기둥 내부에 있는지 확인
+    if x**2 + y**2 <= cylinder_radius**2:
+        sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.red)
+        num_spheres += 1
 
-# ThreadPoolExecutor를 사용하여 비동기적으로 구체 생성
-with ThreadPoolExecutor(max_workers=3) as executor:
-    future_red = executor.submit(create_spheres, color.red, total_spheres * initial_red_ratio, total_spheres * initial_red_ratio)
-    future_purple = executor.submit(create_spheres, color.purple, total_spheres * initial_purple_ratio, total_spheres * initial_purple_ratio)
-    future_black = executor.submit(create_spheres, color.black, total_spheres * initial_black_ratio, total_spheres * initial_black_ratio)
+for _ in range(int(total_spheres * initial_purple_ratio)):
+    x = random.uniform(-cylinder_radius, cylinder_radius)
+    y = random.uniform(-cylinder_radius, cylinder_radius)
+    z = random.uniform(0, cylinder_height)
+
+    # 원기둥 내부에 있는지 확인
+    if x**2 + y**2 <= cylinder_radius**2:
+        sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.purple)
+        num_spheres += 1
+
+for _ in range(int(total_spheres * initial_black_ratio)):
+    x = random.uniform(-cylinder_radius, cylinder_radius)
+    y = random.uniform(-cylinder_radius, cylinder_radius)
+    z = random.uniform(0, cylinder_height)
+
+    # 원기둥 내부에 있는지 확인
+    if x**2 + y**2 <= cylinder_radius**2:
+        sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.black)
+        num_spheres += 1
 
 # 현재 생성된 구체 갯수 레이블 업데이트
 update_counts()
@@ -82,13 +93,6 @@ update_counts()
 # 화면 업데이트
 scene.autoscale = False
 scene.center = vector(0, 0, cylinder_height / 2)  # 원기둥이 중앙에 오도록 조정
-
-# 카메라를 줌 아웃해서 원기둥이 한눈에 들어오도록 조정
-scene.camera.scale = 50
-
-# 자동으로 업데이트
-update_interval = 5  # 초 단위 간격으로 업데이트
-next_update_time = time.time() + update_interval
 
 # 자동으로 업데이트
 update_interval = 5  # 초 단위 간격으로 업데이트
@@ -106,4 +110,4 @@ while True:
             print("Finished creating spheres on the cylinder.")
             break
 
-    rate(50)  # 낮은 속도로 루프를 돌면서 대기
+    rate(1)  # 낮은 속도로 루프를 돌면서 대기
