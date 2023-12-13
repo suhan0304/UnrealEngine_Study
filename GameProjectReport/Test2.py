@@ -22,8 +22,8 @@ num_black_spheres = 0
 
 # 사용자가 설정할 초기 비율
 initial_red_ratio = 0.4  # 빨강 구체 비율
-initial_purple_ratio = 0.3  # 보라 구체 비율
-initial_black_ratio = 0.3  # 검정 구체 비율
+initial_purple_ratio = 0.4  # 보라 구체 비율
+initial_black_ratio = 0.2  # 검정 구체 비율
 
 # 초기 비율에 따라 생성할 구체의 총 개수
 total_spheres = 500
@@ -51,8 +51,8 @@ def update_counts():
 label_text = label(pos=vector(0, -cylinder_radius, cylinder_height), text="Si (Red): 0\nC (Purple): 0\nO (Black): 0", height=15)
 
 # 초기 카메라 위치 및 방향 조정
-scene.camera.pos = vector(0, 0, 0)
-scene.camera.axis = vector(1, 0, 0)  # X 축 방향으로 조정
+scene.camera.pos = vector(0, -2, -2)
+scene.camera.axis = vector(0, 0, -1)  # Z축 방향을 바라보도록 변경
 
 # 초기 비율에 따라 구체를 최대한 배치하여 원기둥 공간 채우기
 num_spheres = 0
@@ -66,6 +66,7 @@ for _ in range(int(total_spheres * initial_red_ratio)):
     if x**2 + y**2 <= cylinder_radius**2:
         sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.red)
         num_spheres += 1
+        rate(100)  # rate 추가
 
 for _ in range(int(total_spheres * initial_purple_ratio)):
     x = random.uniform(-cylinder_radius, cylinder_radius)
@@ -76,6 +77,7 @@ for _ in range(int(total_spheres * initial_purple_ratio)):
     if x**2 + y**2 <= cylinder_radius**2:
         sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.purple)
         num_spheres += 1
+        rate(100)  # rate 추가
 
 for _ in range(int(total_spheres * initial_black_ratio)):
     x = random.uniform(-cylinder_radius, cylinder_radius)
@@ -86,6 +88,7 @@ for _ in range(int(total_spheres * initial_black_ratio)):
     if x**2 + y**2 <= cylinder_radius**2:
         sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.black)
         num_spheres += 1
+        rate(100)  # rate 추가
 
 # 현재 생성된 구체 갯수 레이블 업데이트
 update_counts()
@@ -94,8 +97,6 @@ update_counts()
 scene.autoscale = False
 scene.center = vector(0, 0, cylinder_height / 2)  # 원기둥이 중앙에 오도록 조정
 
-# 카메라를 줌 아웃해서 원기둥이 한눈에 들어오도록 조정
-scene.camera.scale = 1.5
 
 # 자동으로 업데이트
 update_interval = 5  # 초 단위 간격으로 업데이트
@@ -108,9 +109,9 @@ while True:
         # 다음 업데이트 시간 설정
         next_update_time = time.time() + update_interval
 
-        # 모든 구체를 생성했으면 종료
-        if num_spheres >= total_spheres:
+        # 모든 구체를 생성했거나 생성이 어려워진 경우 종료
+        if num_spheres >= total_spheres or num_spheres == 0:
             print("Finished creating spheres on the cylinder.")
             break
 
-    rate(1)  # 낮은 속도로 루프를 돌면서 대기
+    rate(50)  # 낮은 속도로 루프를 돌면서 대기
