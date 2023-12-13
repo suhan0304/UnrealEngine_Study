@@ -15,6 +15,10 @@ sphere_radius = 0.05  # 구체의 반지름
 # 원기둥 공간을 정의
 cylinder = cylinder(pos=vector(0, 0, 0), axis=vector(0, 0, cylinder_height), radius=cylinder_radius, opacity=0.3)
 
+# 초기 카메라 위치 및 방향 조정
+scene.camera.pos = vector(0, -2, -500)
+scene.camera.axis = vector(0, 0, -1)  # Z축 방향을 바라보도록 변경
+
 # 사용자가 확인할 색상별 구체 개수 초기화
 num_red_spheres = 0
 num_purple_spheres = 0
@@ -50,53 +54,62 @@ def update_counts():
 # 화면에 출력할 label 생성
 label_text = label(pos=vector(0, -cylinder_radius, cylinder_height), text="Si (Red): 0\nC (Purple): 0\nO (Black): 0", height=15)
 
-# 초기 카메라 위치 및 방향 조정
-scene.camera.pos = vector(0, -2, -2)
-scene.camera.axis = vector(0, 0, -1)  # Z축 방향을 바라보도록 변경
-
-# 초기 비율에 따라 구체를 최대한 배치하여 원기둥 공간 채우기
-num_spheres = 0
-
-for _ in range(int(total_spheres * initial_red_ratio)):
-    x = random.uniform(-cylinder_radius, cylinder_radius)
-    y = random.uniform(-cylinder_radius, cylinder_radius)
-    z = random.uniform(0, cylinder_height)
-
-    # 원기둥 내부에 있는지 확인
-    if x**2 + y**2 <= cylinder_radius**2:
-        sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.red)
-        num_spheres += 1
-        rate(100)  # rate 추가
-
-for _ in range(int(total_spheres * initial_purple_ratio)):
-    x = random.uniform(-cylinder_radius, cylinder_radius)
-    y = random.uniform(-cylinder_radius, cylinder_radius)
-    z = random.uniform(0, cylinder_height)
-
-    # 원기둥 내부에 있는지 확인
-    if x**2 + y**2 <= cylinder_radius**2:
-        sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.purple)
-        num_spheres += 1
-        rate(100)  # rate 추가
-
-for _ in range(int(total_spheres * initial_black_ratio)):
-    x = random.uniform(-cylinder_radius, cylinder_radius)
-    y = random.uniform(-cylinder_radius, cylinder_radius)
-    z = random.uniform(0, cylinder_height)
-
-    # 원기둥 내부에 있는지 확인
-    if x**2 + y**2 <= cylinder_radius**2:
-        sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.black)
-        num_spheres += 1
-        rate(100)  # rate 추가
-
-# 현재 생성된 구체 갯수 레이블 업데이트
-update_counts()
-
 # 화면 업데이트
 scene.autoscale = False
 scene.center = vector(0, 0, cylinder_height / 2)  # 원기둥이 중앙에 오도록 조정
 
+# 카메라를 줌 아웃해서 원기둥이 한눈에 들어오도록 조정
+scene.camera.scale = 50
+
+# 초기 비율에 따라 구체를 최대한 배치하여 원기둥 공간 채우기
+num_spheres = 0
+
+# 최대 구체 갯수에 도달할 때까지 반복
+while num_spheres < total_spheres:
+    # 빨강 구체 생성
+    for _ in range(int(total_spheres * initial_red_ratio)):
+        if num_spheres >= total_spheres:
+            break
+        x = random.uniform(-cylinder_radius, cylinder_radius)
+        y = random.uniform(-cylinder_radius, cylinder_radius)
+        z = random.uniform(0, cylinder_height)
+
+        # 원기둥 내부에 있는지 확인
+        if x**2 + y**2 <= cylinder_radius**2:
+            sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.red)
+            num_spheres += 1
+            rate(100)  # rate 추가
+
+    # 보라 구체 생성
+    for _ in range(int(total_spheres * initial_purple_ratio)):
+        if num_spheres >= total_spheres:
+            break
+        x = random.uniform(-cylinder_radius, cylinder_radius)
+        y = random.uniform(-cylinder_radius, cylinder_radius)
+        z = random.uniform(0, cylinder_height)
+
+        # 원기둥 내부에 있는지 확인
+        if x**2 + y**2 <= cylinder_radius**2:
+            sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.purple)
+            num_spheres += 1
+            rate(100)  # rate 추가
+
+    # 검정 구체 생성
+    for _ in range(int(total_spheres * initial_black_ratio)):
+        if num_spheres >= total_spheres:
+            break
+        x = random.uniform(-cylinder_radius, cylinder_radius)
+        y = random.uniform(-cylinder_radius, cylinder_radius)
+        z = random.uniform(0, cylinder_height)
+
+        # 원기둥 내부에 있는지 확인
+        if x**2 + y**2 <= cylinder_radius**2:
+            sphere(pos=vector(x, y, z), radius=sphere_radius, color=color.black)
+            num_spheres += 1
+            rate(100)  # rate 추가
+
+# 현재 생성된 구체 갯수 레이블 업데이트
+update_counts()
 
 # 자동으로 업데이트
 update_interval = 5  # 초 단위 간격으로 업데이트
